@@ -1,6 +1,6 @@
-**Bakerhughes Oscar Finance team**
+# **Bakerhughes Oscar Finance team**
 
-<u>GL Team members Left</u>
+## <u>GL Team members Left</u>
 
 Harish
 Mounica
