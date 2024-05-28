@@ -12,4 +12,4 @@
 
 ## <u>GL Team Members Existing</u>
  - IM's -- Antonio, Massi, Chandrima
-    - Pammi, Chander, Melwin, Kamal
+    - Team Members -- Pammi, Chander, Melwin, Kamal
