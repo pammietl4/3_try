@@ -3,11 +3,13 @@
 
 # **Bakerhughes Oscar Finance team**
 
-## <u>GL Team members Left</u>
+## <u>GL Team Members Left</u>
 
 * Harish
 * Mounica
 * Vinay
 * Suresh
 
-
+## <u>GL Team Members Existing</u>
+ - IM's -- Antonio, Massi, Chandrima
+    - Pammi, Chander, Melwin, Kamal
