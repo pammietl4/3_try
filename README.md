@@ -5,9 +5,9 @@
 
 ## <u>GL Team members Left</u>
 
-Harish
-Mounica
-Vinay
-suresh
+1.Harish
+2.Mounica
+3.Vinay
+4.Suresh
 
 
