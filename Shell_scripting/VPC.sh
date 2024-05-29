@@ -10,7 +10,7 @@ aws ec2 describe-vpcs | jq ".Vpcs[].VpcId" -r # IP's without invited comas
 VPCID=$(aws ec2 describe-vpcs | jq ".Vpcs[].VpcId" -r)
 
 for VPC in $VPCID; do
-    echo $VPC                    # without adding any prefix
+    #echo $VPC                    # without adding any prefix
     echo "THIS VPC ID is : $VPC" # with pre-fix
-    echo "---------"             # print line in b/w ip's
+    #echo "---------"             # print line in b/w ip's
 done
