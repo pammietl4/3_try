@@ -9,3 +9,9 @@ aws ec2 describe-vpcs |jq ".Vpcs[].VpcId" -r  # IP's without invited comas
 
 VPCID=${aws ec2 describe-vpcs |jq ".Vpcs[].VpcId" -r}
 
+
+for VPC in $VPCID
+do
+echo $VPC
+done
+
