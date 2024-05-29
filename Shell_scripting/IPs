@@ -1,0 +1,1721 @@
+{
+  "1": {
+    "guid": "4",
+    "servercode": "SG1",
+    "title": "Singapore",
+    "ip": "128.199.105.174",
+    "ipv6": "2400:6180:0:d0::11e9:9001",
+    "countryiso": "SGP",
+    "status": "Up"
+  },
+  "2": {
+    "guid": "18",
+    "servercode": "DE",
+    "title": "Germany, Frankfurt - 10",
+    "ip": "167.172.171.102",
+    "ipv6": "2a03:b0c0:3:d0::19a7:2001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "3": {
+    "guid": "19",
+    "servercode": "CA",
+    "title": "Canada, Toronto - 5",
+    "ip": "149.248.50.29",
+    "ipv6": "2001:19f0:b001:226:5400:04ff:fe14:f5a4",
+    "countryiso": "CAN",
+    "status": "Up"
+  },
+  "4": {
+    "guid": "27",
+    "servercode": "NL4",
+    "title": "Netherlands, Amsterdam - 2",
+    "ip": "146.190.20.113",
+    "ipv6": "2a03:b0c0:2:d0::12d1:1",
+    "countryiso": "NLD",
+    "status": "Up"
+  },
+  "5": {
+    "guid": "29",
+    "servercode": "LA1",
+    "title": "United States, Los Angeles - 1",
+    "ip": "45.32.69.14",
+    "ipv6": "2001:19f0:6001:4a76:5400:04ff:fe14:ec2a",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "6": {
+    "guid": "32",
+    "servercode": "ES",
+    "title": "Spain, Madrid - 1",
+    "ip": "194.62.97.161",
+    "ipv6": "2a04:3542:8000:1000:40ef:dfff:fe72:5df6",
+    "countryiso": "ESP",
+    "status": "Up"
+  },
+  "7": {
+    "guid": "43",
+    "servercode": "DA11",
+    "title": "United States, Dallas - 2",
+    "ip": "45.32.195.225",
+    "ipv6": "2001:19f0:6401:43f:5400:04ff:fe14:e9dd",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "8": {
+    "guid": "45",
+    "servercode": "SSDVPS1",
+    "title": "United States, Los Angeles - 2",
+    "ip": "149.28.79.140",
+    "ipv6": "2001:19f0:6001:584d:5400:04ff:fe15:8c18",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "9": {
+    "guid": "54",
+    "servercode": "JP1",
+    "title": "Japan, Tokyo  - 1",
+    "ip": "108.61.162.214",
+    "ipv6": "2001:19f0:7001:1299:5400:04ff:fe15:3620",
+    "countryiso": "JPN",
+    "status": "Up"
+  },
+  "10": {
+    "guid": "58",
+    "servercode": "HK",
+    "title": "Hong Kong - 1",
+    "ip": "34.92.43.64",
+    "ipv6": "",
+    "countryiso": "HKG",
+    "status": "Up"
+  },
+  "11": {
+    "guid": "59",
+    "servercode": "AU1",
+    "title": "Australia, Sydney - 1",
+    "ip": "45.76.123.211",
+    "ipv6": "2001:19f0:5801:ca9:5400:04ff:fe15:3358",
+    "countryiso": "AUS",
+    "status": "Up"
+  },
+  "12": {
+    "guid": "60",
+    "servercode": "CH1a",
+    "title": "Switzerland, Zurich - 4",
+    "ip": "34.65.116.80",
+    "ipv6": "",
+    "countryiso": "CHE",
+    "status": "Up"
+  },
+  "13": {
+    "guid": "61",
+    "servercode": "NZ01",
+    "title": "New Zealand, Auckland - 1",
+    "ip": "103.14.141.200",
+    "ipv6": "",
+    "countryiso": "NZL",
+    "status": "Up"
+  },
+  "14": {
+    "guid": "65",
+    "servercode": "UK11",
+    "title": "United Kingdom, London - 22",
+    "ip": "138.68.187.225",
+    "ipv6": "2a03:b0c0:1:d0::1211:6001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "15": {
+    "guid": "66",
+    "servercode": "SE1",
+    "title": "Sweden, Stockholm - 1",
+    "ip": "13.48.238.157",
+    "ipv6": "",
+    "countryiso": "SWE",
+    "status": "Up"
+  },
+  "16": {
+    "guid": "69",
+    "servercode": "IOM",
+    "title": "Isle of Man, Douglas - 1",
+    "ip": "37.235.55.35",
+    "ipv6": "",
+    "countryiso": "IMN",
+    "status": "Up"
+  },
+  "17": {
+    "guid": "72",
+    "servercode": "FLO1",
+    "title": "United States, Florida - 1",
+    "ip": "45.63.104.11",
+    "ipv6": "2001:19f0:9002:689:5400:04ff:fe15:3e71",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "18": {
+    "guid": "73",
+    "servercode": "FR2",
+    "title": "France, Paris  - 1",
+    "ip": "45.32.151.21",
+    "ipv6": "2001:19f0:6801:1aa:5400:04ff:fe15:402b",
+    "countryiso": "FRA",
+    "status": "Up"
+  },
+  "19": {
+    "guid": "74",
+    "servercode": "SF1",
+    "title": "United States, California - 1",
+    "ip": "198.199.112.67",
+    "ipv6": "2604:a880:1:20::69:e001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "20": {
+    "guid": "75",
+    "servercode": "SF2",
+    "title": "United States, California - 2",
+    "ip": "138.197.201.67",
+    "ipv6": "2604:a880:2:d0::203d:a001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "21": {
+    "guid": "76",
+    "servercode": "NL10",
+    "title": "Netherlands, Amsterdam - 3",
+    "ip": "198.211.123.207",
+    "ipv6": "2a03:b0c0:0:1010::15:a001",
+    "countryiso": "NLD",
+    "status": "Up"
+  },
+  "22": {
+    "guid": "77",
+    "servercode": "NL11",
+    "title": "Netherlands, Amsterdam - 4",
+    "ip": "146.190.20.1",
+    "ipv6": "2a03:b0c0:2:d0::129b:7001",
+    "countryiso": "NLD",
+    "status": "Up"
+  },
+  "23": {
+    "guid": "78",
+    "servercode": "NL12",
+    "title": "Netherlands, Amsterdam - 5",
+    "ip": "198.211.121.217",
+    "ipv6": "2a03:b0c0:0:1010::8:e001",
+    "countryiso": "NLD",
+    "status": "Up"
+  },
+  "24": {
+    "guid": "79",
+    "servercode": "TX1",
+    "title": "United States, Texas - 1",
+    "ip": "45.32.202.57",
+    "ipv6": "2001:19f0:6401:14df:5400:04ff:fe15:3e3a",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "25": {
+    "guid": "80",
+    "servercode": "NL20",
+    "title": "Netherlands, Amsterdam - 6",
+    "ip": "146.190.24.231",
+    "ipv6": "2a03:b0c0:2:d0::1296:c001",
+    "countryiso": "NLD",
+    "status": "Up"
+  },
+  "26": {
+    "guid": "81",
+    "servercode": "USCH1",
+    "title": "United States, Chicago - 1",
+    "ip": "108.61.119.153",
+    "ipv6": "2001:19f0:5c00:151f:5400:04ff:fe14:e873",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "27": {
+    "guid": "82",
+    "servercode": "NL21",
+    "title": "Netherlands, Amsterdam - 7",
+    "ip": "198.211.123.54",
+    "ipv6": "2a03:b0c0:0:1010::14:1",
+    "countryiso": "NLD",
+    "status": "Up"
+  },
+  "28": {
+    "guid": "86",
+    "servercode": "HRSM1",
+    "title": "United States, San Francisco - 5",
+    "ip": "45.32.141.163",
+    "ipv6": "2001:19f0:ac01:518:5400:04ff:fe14:fb1b",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "29": {
+    "guid": "91",
+    "servercode": "THNDR1",
+    "title": "United States, Atlanta - 1",
+    "ip": "108.61.252.147",
+    "ipv6": "2001:19f0:5401:925:5400:04ff:fe14:e3c0",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "30": {
+    "guid": "92",
+    "servercode": "WADA1",
+    "title": "United States, Texas - 2",
+    "ip": "155.138.247.97",
+    "ipv6": "2001:19f0:6401:31f:5400:04ff:fe15:8e93",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "31": {
+    "guid": "94",
+    "servercode": "WADA3",
+    "title": "United States, Texas - 4",
+    "ip": "108.61.224.36",
+    "ipv6": "2001:19f0:6401:782:5400:04ff:fe15:8e94",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "32": {
+    "guid": "99",
+    "servercode": "UKINT",
+    "title": "United Kingdom, London - 5",
+    "ip": "178.62.62.252",
+    "ipv6": "2a03:b0c0:1:d0::122f:d001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "33": {
+    "guid": "100",
+    "servercode": "UKBOB",
+    "title": "United Kingdom, London - 6",
+    "ip": "209.222.30.242",
+    "ipv6": "2001:19f0:7402:102b:5400:04ff:fe15:8ed4",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "34": {
+    "guid": "101",
+    "servercode": "EC1",
+    "title": "United Kingdom, London - 7",
+    "ip": "159.65.19.28",
+    "ipv6": "2a03:b0c0:1:d0::1216:4001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "35": {
+    "guid": "102",
+    "servercode": "AU5",
+    "title": "Australia, Sydney - 2",
+    "ip": "108.61.212.141",
+    "ipv6": "2001:19f0:5801:15e1:5400:04ff:fe15:3fde",
+    "countryiso": "AUS",
+    "status": "Up"
+  },
+  "36": {
+    "guid": "103",
+    "servercode": "FREE1",
+    "title": "United Kingdom, London - 8",
+    "ip": "165.22.122.238",
+    "ipv6": "2a03:b0c0:1:d0::124b:a001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "37": {
+    "guid": "104",
+    "servercode": "FREE2",
+    "title": "United Kingdom, London - 9",
+    "ip": "138.68.139.98",
+    "ipv6": "2a03:b0c0:1:d0::124a:2001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "38": {
+    "guid": "107",
+    "servercode": "FREE5",
+    "title": "Netherlands, Amsterdam - 8",
+    "ip": "198.211.122.64",
+    "ipv6": "2a03:b0c0:0:1010::11:1001",
+    "countryiso": "NLD",
+    "status": "Up"
+  },
+  "39": {
+    "guid": "108",
+    "servercode": "FREE6",
+    "title": "Netherlands, Amsterdam - 9",
+    "ip": "146.190.20.13",
+    "ipv6": "2a03:b0c0:2:d0::12c1:2001",
+    "countryiso": "NLD",
+    "status": "Up"
+  },
+  "40": {
+    "guid": "110",
+    "servercode": "FREE8",
+    "title": "Netherlands, Amsterdam - 10",
+    "ip": "198.211.118.32",
+    "ipv6": "2a03:b0c0:0:1010::1a:c001",
+    "countryiso": "NLD",
+    "status": "Up"
+  },
+  "41": {
+    "guid": "111",
+    "servercode": "FREE9",
+    "title": "United Kingdom, London - 11",
+    "ip": "139.59.179.152",
+    "ipv6": "2a03:b0c0:1:d0::1249:1001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "42": {
+    "guid": "112",
+    "servercode": "FREE10",
+    "title": "United States, New York - 1",
+    "ip": "206.189.178.14",
+    "ipv6": "2604:a880:400:d0::21d4:b001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "43": {
+    "guid": "113",
+    "servercode": "FREE11",
+    "title": "United States, New York - 2",
+    "ip": "174.138.57.253",
+    "ipv6": "2604:a880:800:10::607:8001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "44": {
+    "guid": "114",
+    "servercode": "FREE12",
+    "title": "United Kingdom, London - 12",
+    "ip": "188.166.150.48",
+    "ipv6": "2a03:b0c0:1:d0::1248:6001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "45": {
+    "guid": "115",
+    "servercode": "FREE13",
+    "title": "United States, New York - 3",
+    "ip": "192.241.243.72",
+    "ipv6": "2604:a880:0:1010::21:1001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "46": {
+    "guid": "116",
+    "servercode": "FREE14",
+    "title": "United Kingdom, London - 13",
+    "ip": "46.101.11.146",
+    "ipv6": "2a03:b0c0:1:d0::1248:5001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "47": {
+    "guid": "117",
+    "servercode": "FREE15",
+    "title": "United States, New York - 4",
+    "ip": "162.243.37.40",
+    "ipv6": "2604:a880:0:1010::4e:2001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "48": {
+    "guid": "118",
+    "servercode": "FREE16",
+    "title": "United States, New York - 5",
+    "ip": "159.223.175.210",
+    "ipv6": "2604:a880:400:d0::21b0:1",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "49": {
+    "guid": "120",
+    "servercode": "DOUK1",
+    "title": "United Kingdom, London - 14",
+    "ip": "178.62.85.105",
+    "ipv6": "2a03:b0c0:1:d0::1243:9001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "50": {
+    "guid": "121",
+    "servercode": "DOUK2",
+    "title": "United Kingdom, London - 15",
+    "ip": "178.62.83.142",
+    "ipv6": "2a03:b0c0:1:d0::1242:1001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "51": {
+    "guid": "122",
+    "servercode": "DOUK3",
+    "title": "United Kingdom, London - 16",
+    "ip": "178.62.40.182",
+    "ipv6": "2a03:b0c0:1:d0::1240:c001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "52": {
+    "guid": "123",
+    "servercode": "UG2",
+    "title": "United States, New York - 6",
+    "ip": "165.227.74.224",
+    "ipv6": "2604:a880:800:10::a31:e001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "53": {
+    "guid": "124",
+    "servercode": "HRSM2",
+    "title": "United Kingdom, London - 17",
+    "ip": "157.245.32.33",
+    "ipv6": "2a03:b0c0:1:d0::123f:1001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "54": {
+    "guid": "125",
+    "servercode": "UG3",
+    "title": "United States, New York - 8",
+    "ip": "159.89.82.33",
+    "ipv6": "2604:a880:400:d0::21d7:4001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "55": {
+    "guid": "126",
+    "servercode": "USI",
+    "title": "United States, Chicago - 5",
+    "ip": "207.148.13.55",
+    "ipv6": "2001:19f0:5c00:1f1f:5400:04ff:fe15:893e",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "56": {
+    "guid": "136",
+    "servercode": "UKCON2",
+    "title": "United Kingdom, London - 18",
+    "ip": "159.65.93.138",
+    "ipv6": "2a03:b0c0:1:d0::1218:4001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "57": {
+    "guid": "137",
+    "servercode": "DOUK4",
+    "title": "United Kingdom, London - 19",
+    "ip": "167.71.143.76",
+    "ipv6": "2a03:b0c0:1:d0::123d:4001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "58": {
+    "guid": "139",
+    "servercode": "SWE1",
+    "title": "Sweden, Stockholm - 4",
+    "ip": "16.170.114.19",
+    "ipv6": "",
+    "countryiso": "SWE",
+    "status": "Up"
+  },
+  "59": {
+    "guid": "141",
+    "servercode": "ZA5",
+    "title": "South Africa, Johannesburg - 2",
+    "ip": "13.246.54.122",
+    "ipv6": "",
+    "countryiso": "ZAF",
+    "status": "Up"
+  },
+  "60": {
+    "guid": "142",
+    "servercode": "HNGR1",
+    "title": "Hungary, Budapest - 1",
+    "ip": "194.71.130.16",
+    "ipv6": "",
+    "countryiso": "HUN",
+    "status": "Up"
+  },
+  "61": {
+    "guid": "144",
+    "servercode": "DODE1",
+    "title": "Germany, Frankfurt - 9",
+    "ip": "167.172.175.168",
+    "ipv6": "2a03:b0c0:3:d0::19b6:f001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "62": {
+    "guid": "145",
+    "servercode": "DODE2",
+    "title": "Germany, Frankfurt - 12",
+    "ip": "167.172.161.111",
+    "ipv6": "2a03:b0c0:3:d0::19b4:f001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "63": {
+    "guid": "146",
+    "servercode": "DODE3",
+    "title": "Germany, Frankfurt - 11",
+    "ip": "167.71.61.88",
+    "ipv6": "2a03:b0c0:3:d0::19b4:1",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "64": {
+    "guid": "150",
+    "servercode": "FREE12SUB1",
+    "title": "United Kingdom, London - 12B",
+    "ip": "188.166.145.79",
+    "ipv6": "2a03:b0c0:1:d0::120f:7001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "65": {
+    "guid": "155",
+    "servercode": "IS1",
+    "title": "Israel, Tel Aviv - 1",
+    "ip": "34.165.80.145",
+    "ipv6": "",
+    "countryiso": "ISR",
+    "status": "Up"
+  },
+  "66": {
+    "guid": "156",
+    "servercode": "CATOR",
+    "title": "Canada, Toronto - 1",
+    "ip": "143.110.216.228",
+    "ipv6": "2604:a880:cad:d0::c9f:4001",
+    "countryiso": "CAN",
+    "status": "Up"
+  },
+  "67": {
+    "guid": "157",
+    "servercode": "IT1",
+    "title": "Italy, Milano - 1",
+    "ip": "18.102.1.62",
+    "ipv6": "",
+    "countryiso": "ITA",
+    "status": "Up"
+  },
+  "68": {
+    "guid": "159",
+    "servercode": "MEX",
+    "title": "Mexico, Mexico City - 1",
+    "ip": "216.238.73.102",
+    "ipv6": "2001:19f0:b400:1056:5400:04ff:fe14:efa8",
+    "countryiso": "MEX",
+    "status": "Up"
+  },
+  "69": {
+    "guid": "161",
+    "servercode": "ZA3",
+    "title": "South Africa, Johannesburg - 1",
+    "ip": "13.245.222.203",
+    "ipv6": "",
+    "countryiso": "ZAF",
+    "status": "Up"
+  },
+  "70": {
+    "guid": "162",
+    "servercode": "SG2",
+    "title": "Singapore - 2",
+    "ip": "159.223.74.121",
+    "ipv6": "2400:6180:0:d0::144f:8001",
+    "countryiso": "SGP",
+    "status": "Up"
+  },
+  "71": {
+    "guid": "164",
+    "servercode": "DEFR-1",
+    "title": "Germany, Frankfurt - 1",
+    "ip": "167.172.163.51",
+    "ipv6": "2a03:b0c0:3:d0::199a:4001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "72": {
+    "guid": "165",
+    "servercode": "DEFR-2",
+    "title": "Germany, Frankfurt - 2",
+    "ip": "167.172.171.89",
+    "ipv6": "2a03:b0c0:3:d0::19a5:4001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "73": {
+    "guid": "166",
+    "servercode": "DODE5",
+    "title": "Germany, Frankfurt - 3",
+    "ip": "167.172.163.238",
+    "ipv6": "2a03:b0c0:3:d0::199b:2001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "74": {
+    "guid": "167",
+    "servercode": "DOUK5",
+    "title": "United Kingdom, London - 20",
+    "ip": "68.183.39.102",
+    "ipv6": "2a03:b0c0:1:d0::1231:c001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "75": {
+    "guid": "168",
+    "servercode": "DOUK6",
+    "title": "United Kingdom, London - 1",
+    "ip": "165.22.125.189",
+    "ipv6": "2a03:b0c0:1:d0::1229:c001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "76": {
+    "guid": "170",
+    "servercode": "DODE4",
+    "title": "Germany, Frankfurt - 6",
+    "ip": "138.68.83.231",
+    "ipv6": "2a03:b0c0:3:d0::195c:7001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "77": {
+    "guid": "173",
+    "servercode": "BEL1",
+    "title": "Belgium, Oostkamp - 1",
+    "ip": "35.195.188.224",
+    "ipv6": "",
+    "countryiso": "BEL",
+    "status": "Up"
+  },
+  "78": {
+    "guid": "174",
+    "servercode": "IT2",
+    "title": "Italy, Milano - 2",
+    "ip": "15.160.68.179",
+    "ipv6": "",
+    "countryiso": "ITA",
+    "status": "Up"
+  },
+  "79": {
+    "guid": "175",
+    "servercode": "ES1",
+    "title": "Spain, Madrid - 2",
+    "ip": "194.62.97.232",
+    "ipv6": "2a04:3542:8000:1000:40ef:dfff:fe72:5c19",
+    "countryiso": "ESP",
+    "status": "Up"
+  },
+  "80": {
+    "guid": "178",
+    "servercode": "PL2",
+    "title": "Poland, Warsaw - 2",
+    "ip": "34.116.156.130",
+    "ipv6": "",
+    "countryiso": "POL",
+    "status": "Up"
+  },
+  "81": {
+    "guid": "180",
+    "servercode": "IND1",
+    "title": "India, Bangalore - 1",
+    "ip": "143.110.177.252",
+    "ipv6": "2400:6180:100:d0::afd:8001",
+    "countryiso": "IND",
+    "status": "Up"
+  },
+  "82": {
+    "guid": "182",
+    "servercode": "JP2",
+    "title": "Japan, Tokyo - 2",
+    "ip": "45.63.121.159",
+    "ipv6": "2001:19f0:7001:38c4:5400:04ff:fe15:3622",
+    "countryiso": "JPN",
+    "status": "Up"
+  },
+  "83": {
+    "guid": "183",
+    "servercode": "FR3",
+    "title": "France, Paris - 3",
+    "ip": "45.32.145.79",
+    "ipv6": "2001:19f0:6801:1f84:5400:04ff:fe14:f8d3",
+    "countryiso": "FRA",
+    "status": "Up"
+  },
+  "84": {
+    "guid": "186",
+    "servercode": "fr1",
+    "title": "France, Paris - 6",
+    "ip": "199.247.12.100",
+    "ipv6": "2a05:f480:1c00:280:5400:04ff:fe14:f8d1",
+    "countryiso": "FRA",
+    "status": "Up"
+  },
+  "85": {
+    "guid": "187",
+    "servercode": "RU3",
+    "title": "Russia, St Petersburg - 1",
+    "ip": "213.183.54.66",
+    "ipv6": "",
+    "countryiso": "RUS",
+    "status": "Up"
+  },
+  "86": {
+    "guid": "189",
+    "servercode": "SAN-01",
+    "title": "United States, San Francisco - 1",
+    "ip": "143.198.153.99",
+    "ipv6": "2604:a880:4:1d0::3ae:8000",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "87": {
+    "guid": "190",
+    "servercode": "FR4",
+    "title": "France, Paris  - 4",
+    "ip": "107.191.47.131",
+    "ipv6": "2a05:f480:1c00:b4a:5400:04ff:fe14:f8d4",
+    "countryiso": "FRA",
+    "status": "Up"
+  },
+  "88": {
+    "guid": "191",
+    "servercode": "SAN-02",
+    "title": "United States, San Francisco - 2",
+    "ip": "143.244.178.189",
+    "ipv6": "2604:a880:4:1d0::414:4000",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "89": {
+    "guid": "192",
+    "servercode": "SAN-03",
+    "title": "United States, San Francisco - 3",
+    "ip": "138.68.252.209",
+    "ipv6": "2604:a880:2:d0::203e:4001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "90": {
+    "guid": "193",
+    "servercode": "SAN-04",
+    "title": "United States, San Francisco - 4",
+    "ip": "198.199.100.13",
+    "ipv6": "2604:a880:1:20::6e:3001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "91": {
+    "guid": "194",
+    "servercode": "TORO2",
+    "title": "Canada, Toronto - 2",
+    "ip": "143.110.216.159",
+    "ipv6": "2604:a880:cad:d0::c95:7001",
+    "countryiso": "CAN",
+    "status": "Up"
+  },
+  "92": {
+    "guid": "195",
+    "servercode": "TORO3",
+    "title": "Canada, Toronto - 3",
+    "ip": "143.110.216.64",
+    "ipv6": "2604:a880:cad:d0::c91:6001",
+    "countryiso": "CAN",
+    "status": "Up"
+  },
+  "93": {
+    "guid": "196",
+    "servercode": "TORO4",
+    "title": "Canada, Toronto - 4",
+    "ip": "143.110.216.47",
+    "ipv6": "2604:a880:cad:d0::2aa:9001",
+    "countryiso": "CAN",
+    "status": "Up"
+  },
+  "94": {
+    "guid": "197",
+    "servercode": "DODE6",
+    "title": "Germany, Frankfurt - 5",
+    "ip": "167.172.171.10",
+    "ipv6": "2a03:b0c0:3:d0::199c:2001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "95": {
+    "guid": "198",
+    "servercode": "DEFR-6",
+    "title": "Germany, Frankfurt",
+    "ip": "167.172.163.229",
+    "ipv6": "2a03:b0c0:3:d0::199a:b001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "96": {
+    "guid": "199",
+    "servercode": "DOUK7",
+    "title": "United Kingdom, London - 21",
+    "ip": "209.97.178.115",
+    "ipv6": "2a03:b0c0:1:d0::1229:2001",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "97": {
+    "guid": "200",
+    "servercode": "DEFR-5",
+    "title": "Germany, Frankfurt - 10",
+    "ip": "167.172.163.128",
+    "ipv6": "2a03:b0c0:3:d0::199a:9001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "98": {
+    "guid": "201",
+    "servercode": "IND2",
+    "title": "India, Bangalore - 2",
+    "ip": "165.22.210.218",
+    "ipv6": "2400:6180:100:d0::a6a:6001",
+    "countryiso": "IND",
+    "status": "Up"
+  },
+  "99": {
+    "guid": "202",
+    "servercode": "sil1",
+    "title": "United States, Silicon Valley - 1",
+    "ip": "45.63.88.213",
+    "ipv6": "2001:19f0:ac01:154a:5400:04ff:fe14:fb1e",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "100": {
+    "guid": "203",
+    "servercode": "sil2",
+    "title": "United States, Silicon Valley - 2",
+    "ip": "45.63.86.120",
+    "ipv6": "2001:19f0:ac01:3c3:5400:04ff:fe14:fb1c",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "101": {
+    "guid": "204",
+    "servercode": "sil3",
+    "title": "United States, Silicon Valley - 3",
+    "ip": "45.32.128.80",
+    "ipv6": "2001:19f0:ac01:1dc9:5400:04ff:fe14:fb1d",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "102": {
+    "guid": "205",
+    "servercode": "sil4",
+    "title": "United States, Silicon Valley - 4",
+    "ip": "104.156.229.24",
+    "ipv6": "2001:19f0:ac01:122:5400:04ff:fe14:fb1a",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "103": {
+    "guid": "206",
+    "servercode": "thndr2",
+    "title": "United States, Atlanta - 2",
+    "ip": "45.32.212.56",
+    "ipv6": "2001:19f0:5401:204a:5400:04ff:fe14:e3c1",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "104": {
+    "guid": "207",
+    "servercode": "thndr3",
+    "title": "United States, Atlanta - 3",
+    "ip": "104.156.255.184",
+    "ipv6": "2001:19f0:5401:834:5400:04ff:fe15:88ca",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "105": {
+    "guid": "208",
+    "servercode": "thndr4",
+    "title": "United States, Atlanta - 4",
+    "ip": "108.61.215.179",
+    "ipv6": "2001:19f0:5401:190e:5400:04ff:fe15:88c9",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "106": {
+    "guid": "209",
+    "servercode": "flo2",
+    "title": "United States, Florida - 2",
+    "ip": "45.32.166.195",
+    "ipv6": "2001:19f0:9002:2778:5400:04ff:fe14:f369",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "107": {
+    "guid": "210",
+    "servercode": "flo3",
+    "title": "United States, Florida - 3",
+    "ip": "45.32.160.172",
+    "ipv6": "2001:19f0:9002:b50:5400:04ff:fe14:f368",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "108": {
+    "guid": "211",
+    "servercode": "flo4",
+    "title": "United States, Florida -4",
+    "ip": "45.32.171.24",
+    "ipv6": "2001:19f0:9002:17f4:5400:04ff:fe14:f36a",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "109": {
+    "guid": "212",
+    "servercode": "au2",
+    "title": "Australia, Sydney - 3",
+    "ip": "107.191.57.237",
+    "ipv6": "2001:19f0:5801:c8a:5400:04ff:fe15:3359",
+    "countryiso": "AUS",
+    "status": "Up"
+  },
+  "110": {
+    "guid": "213",
+    "servercode": "au3",
+    "title": "Australia, Sydney - 4",
+    "ip": "45.63.26.78",
+    "ipv6": "2001:19f0:5801:15d2:5400:04ff:fe15:3fdf",
+    "countryiso": "AUS",
+    "status": "Up"
+  },
+  "111": {
+    "guid": "214",
+    "servercode": "jp3",
+    "title": "Japan, Tokyo -3",
+    "ip": "45.76.192.50",
+    "ipv6": "2001:19f0:7002:599:5400:04ff:fe15:3621",
+    "countryiso": "JPN",
+    "status": "Up"
+  },
+  "112": {
+    "guid": "215",
+    "servercode": "jp4",
+    "title": "Japan, Tokyo - 4",
+    "ip": "45.32.36.158",
+    "ipv6": "2001:19f0:7001:50a4:5400:04ff:fe15:8c64",
+    "countryiso": "JPN",
+    "status": "Up"
+  },
+  "113": {
+    "guid": "216",
+    "servercode": "IND3",
+    "title": "India, Bangalore - 3",
+    "ip": "143.110.177.254",
+    "ipv6": "2400:6180:100:d0::b91:1001",
+    "countryiso": "IND",
+    "status": "Up"
+  },
+  "114": {
+    "guid": "217",
+    "servercode": "IND4",
+    "title": "India, Bangalore - 4",
+    "ip": "143.110.177.18",
+    "ipv6": "2400:6180:100:d0::9cd:d001",
+    "countryiso": "IND",
+    "status": "Up"
+  },
+  "115": {
+    "guid": "218",
+    "servercode": "usch2",
+    "title": "United States, Chicago - 2",
+    "ip": "104.238.164.105",
+    "ipv6": "2001:19f0:5c00:1f6f:5400:04ff:fe14:e874",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "116": {
+    "guid": "219",
+    "servercode": "usch3",
+    "title": "United States, Chicago - 3",
+    "ip": "45.63.76.68",
+    "ipv6": "2001:19f0:5c00:1fbf:5400:04ff:fe14:e875",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "117": {
+    "guid": "220",
+    "servercode": "usch4",
+    "title": "United States, Chicago - 4",
+    "ip": "45.63.78.84",
+    "ipv6": "2001:19f0:5c01:c87:5400:04ff:fe15:8940",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "118": {
+    "guid": "221",
+    "servercode": "usda3",
+    "title": "United States, Dallas - 3",
+    "ip": "45.32.195.186",
+    "ipv6": "2001:19f0:6401:d69:5400:04ff:fe14:e9dc",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "119": {
+    "guid": "222",
+    "servercode": "UG4",
+    "title": "United States, New Jersey - 1",
+    "ip": "45.76.3.112",
+    "ipv6": "2001:19f0:5:2e88:5400:04ff:fe15:3ea1",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "120": {
+    "guid": "223",
+    "servercode": "UG5",
+    "title": "United States, New Jersey - 2",
+    "ip": "45.32.7.22",
+    "ipv6": "2001:19f0:5:5f7c:5400:04ff:fe14:f77c",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "121": {
+    "guid": "224",
+    "servercode": "UG6",
+    "title": "United States, New Jersey - 3",
+    "ip": "45.76.1.44",
+    "ipv6": "2001:19f0:5:7b1:5400:04ff:fe14:f77b",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "122": {
+    "guid": "225",
+    "servercode": "UG7",
+    "title": "United States, New York - 11",
+    "ip": "165.227.104.61",
+    "ipv6": "2604:a880:800:10::a35:6001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "123": {
+    "guid": "226",
+    "servercode": "UG8",
+    "title": "United States, New York - 12",
+    "ip": "162.243.37.58",
+    "ipv6": "2604:a880:0:1010::59:9001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "124": {
+    "guid": "227",
+    "servercode": "UG9",
+    "title": "United States, New York - 13",
+    "ip": "167.99.224.153",
+    "ipv6": "2604:a880:400:d0::21c4:5001",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "125": {
+    "guid": "228",
+    "servercode": "LA2",
+    "title": "United States, Los Angeles - 3",
+    "ip": "45.63.51.63",
+    "ipv6": "2001:19f0:6001:327c:5400:04ff:fe14:ec29",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "126": {
+    "guid": "229",
+    "servercode": "LA3",
+    "title": "United States, Los Angeles - 4",
+    "ip": "45.63.61.213",
+    "ipv6": "2001:19f0:6001:4930:5400:04ff:fe15:8c19",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "127": {
+    "guid": "230",
+    "servercode": "USDA2",
+    "title": "United States, Dallas - 4",
+    "ip": "108.61.205.201",
+    "ipv6": "2001:19f0:6401:ef2:5400:04ff:fe15:3e39",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "128": {
+    "guid": "231",
+    "servercode": "USDA4",
+    "title": "United States, Dallas - 5",
+    "ip": "45.32.192.198",
+    "ipv6": "2001:19f0:6401:9c6:5400:04ff:fe15:8e95",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "129": {
+    "guid": "232",
+    "servercode": "USDA5",
+    "title": "United States, Dallas - 6",
+    "ip": "45.32.195.93",
+    "ipv6": "2001:19f0:6401:ef7:5400:04ff:fe15:8e96",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "130": {
+    "guid": "237",
+    "servercode": "freeserver1",
+    "title": "UK, Lon - 1",
+    "ip": "45.63.97.4",
+    "ipv6": "2001:19f0:7401:8240:5400:04ff:fe15:44d6",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "131": {
+    "guid": "238",
+    "servercode": "freeserver2",
+    "title": "UK, Lon - 2",
+    "ip": "104.238.185.175",
+    "ipv6": "2a05:f480:1000:8b6:5400:04ff:fe15:44f0",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "132": {
+    "guid": "239",
+    "servercode": "freeserver3",
+    "title": "UK, Lon - 3",
+    "ip": "104.238.185.46",
+    "ipv6": "2001:19f0:7402:19d3:5400:04ff:fe15:44db",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "133": {
+    "guid": "240",
+    "servercode": "freeserver4",
+    "title": "UK, Lon - 4",
+    "ip": "104.238.186.209",
+    "ipv6": "2001:19f0:7402:6c0:5400:04ff:fe15:44d8",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "134": {
+    "guid": "241",
+    "servercode": "freeserver5",
+    "title": "UK, Lon - 5",
+    "ip": "45.76.128.250",
+    "ipv6": "2a05:f480:1000:59e:5400:04ff:fe15:44ee",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "135": {
+    "guid": "242",
+    "servercode": "freeserver6",
+    "title": "UK, Lon - 6",
+    "ip": "104.238.171.176",
+    "ipv6": "2001:19f0:7401:8278:5400:04ff:fe15:44f2",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "136": {
+    "guid": "298",
+    "servercode": "DODE7",
+    "title": "Germany, Frankfurt - 7",
+    "ip": "167.172.173.165",
+    "ipv6": "2a03:b0c0:3:d0::199a:1",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "137": {
+    "guid": "300",
+    "servercode": "freeserver7",
+    "title": "UK, Lon - 7",
+    "ip": "104.238.187.61",
+    "ipv6": "2001:19f0:7402:fe8:5400:04ff:fe15:44d7",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "138": {
+    "guid": "301",
+    "servercode": "freeserver8",
+    "title": "UK, Lon - 8",
+    "ip": "104.238.174.234",
+    "ipv6": "2001:19f0:7401:8a08:5400:04ff:fe14:eb20",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "139": {
+    "guid": "302",
+    "servercode": "freeserver9",
+    "title": "UK, Lon - 9",
+    "ip": "108.61.196.37",
+    "ipv6": "2001:19f0:7400:81cd:5400:04ff:fe14:eb1f",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "140": {
+    "guid": "303",
+    "servercode": "freeserver10",
+    "title": "UK, Lon - 10",
+    "ip": "108.61.197.147",
+    "ipv6": "2001:19f0:7402:1936:5400:04ff:fe14:eb1e",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "141": {
+    "guid": "304",
+    "servercode": "freeserver11",
+    "title": "UK, Lon - 11",
+    "ip": "45.76.134.164",
+    "ipv6": "2001:19f0:7401:8cbe:5400:04ff:fe15:8ed5",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "142": {
+    "guid": "305",
+    "servercode": "freeserver12",
+    "title": "UK, Lon - 12",
+    "ip": "45.76.135.253",
+    "ipv6": "2001:19f0:7401:8434:5400:04ff:fe15:44dc",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "143": {
+    "guid": "306",
+    "servercode": "freeserver13",
+    "title": "UK, Lon - 13",
+    "ip": "108.61.173.0",
+    "ipv6": "2001:19f0:7402:bf4:5400:04ff:fe15:8ed2",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "144": {
+    "guid": "307",
+    "servercode": "freeserver14",
+    "title": "UK, Lon - 14",
+    "ip": "45.63.96.68",
+    "ipv6": "2001:19f0:7402:261:5400:04ff:fe15:8ed3",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "145": {
+    "guid": "308",
+    "servercode": "freeserver15",
+    "title": "UK, Lon - 15",
+    "ip": "45.76.134.85",
+    "ipv6": "2001:19f0:7401:8cbf:5400:04ff:fe15:8ed6",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "146": {
+    "guid": "309",
+    "servercode": "freeserver16",
+    "title": "UK, Lon - 16",
+    "ip": "45.32.183.128",
+    "ipv6": "2001:19f0:7400:89bb:5400:04ff:fe15:44d5",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "147": {
+    "guid": "310",
+    "servercode": "freeserver17",
+    "title": "UK, Lon - 17",
+    "ip": "45.76.130.43",
+    "ipv6": "2a05:f480:1000:d63:5400:04ff:fe15:44de",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "148": {
+    "guid": "311",
+    "servercode": "freeserver18",
+    "title": "UK, Lon - 18",
+    "ip": "45.76.129.212",
+    "ipv6": "2a05:f480:1000:896:5400:04ff:fe15:44da",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "149": {
+    "guid": "312",
+    "servercode": "freeserver19",
+    "title": "UK, Lon - 19",
+    "ip": "45.76.134.198",
+    "ipv6": "2001:19f0:7402:19a9:5400:04ff:fe15:44d4",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "150": {
+    "guid": "313",
+    "servercode": "freeserver20",
+    "title": "UK, Lon - 20",
+    "ip": "45.76.134.237",
+    "ipv6": "2001:19f0:7402:f66:5400:04ff:fe15:44f1",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "151": {
+    "guid": "314",
+    "servercode": "freeserver21",
+    "title": "UK, Lon - 21",
+    "ip": "45.76.135.14",
+    "ipv6": "2001:19f0:7402:b3f:5400:04ff:fe15:44dd",
+    "countryiso": "GBR",
+    "status": "Up"
+  },
+  "152": {
+    "guid": "315",
+    "servercode": "NZ02",
+    "title": "New Zealand, Auckland - 2",
+    "ip": "103.14.141.207",
+    "ipv6": "",
+    "countryiso": "NZL",
+    "status": "Up"
+  },
+  "153": {
+    "guid": "316",
+    "servercode": "USDA",
+    "title": "United States, Dallas - 1",
+    "ip": "45.32.193.13",
+    "ipv6": "2001:19f0:6401:745:5400:04ff:fe14:e9de",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "154": {
+    "guid": "317",
+    "servercode": "freeserver22",
+    "title": "Paris  - 1",
+    "ip": "45.76.44.221",
+    "ipv6": "2001:19f0:6801:1822:5400:04ff:fe15:4028",
+    "countryiso": "FRA",
+    "status": "Up"
+  },
+  "155": {
+    "guid": "318",
+    "servercode": "freeserver23",
+    "title": "Paris  - 2",
+    "ip": "140.82.52.199",
+    "ipv6": "2a05:f480:1c00:716:5400:04ff:fe15:402a",
+    "countryiso": "FRA",
+    "status": "Up"
+  },
+  "156": {
+    "guid": "319",
+    "servercode": "freeserver24",
+    "title": "Paris  - 3",
+    "ip": "199.247.9.63",
+    "ipv6": "2a05:f480:1c00:172:5400:04ff:fe15:4029",
+    "countryiso": "FRA",
+    "status": "Up"
+  },
+  "157": {
+    "guid": "320",
+    "servercode": "freeserver25",
+    "title": "Paris  - 4",
+    "ip": "140.82.52.51",
+    "ipv6": "2001:19f0:6801:13d8:5400:04ff:fe15:4027",
+    "countryiso": "FRA",
+    "status": "Up"
+  },
+  "158": {
+    "guid": "321",
+    "servercode": "freeserver26",
+    "title": "Paris  - 5",
+    "ip": "45.77.61.188",
+    "ipv6": "2001:19f0:6801:1c02:5400:04ff:fe14:f8d2",
+    "countryiso": "FRA",
+    "status": "Up"
+  },
+  "159": {
+    "guid": "322",
+    "servercode": "freeserver27",
+    "title": "United States, Chicago - 6",
+    "ip": "149.28.124.140",
+    "ipv6": "2001:19f0:5c00:19ed:5400:04ff:fe15:893f",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "160": {
+    "guid": "323",
+    "servercode": "freeserver28",
+    "title": "United States, Chicago - 7",
+    "ip": "108.61.229.252",
+    "ipv6": "2001:19f0:5c01:a9e:5400:04ff:fe15:3c73",
+    "countryiso": "USA",
+    "status": "Up"
+  },
+  "161": {
+    "guid": "325",
+    "servercode": "DUB2",
+    "title": "Ireland, Dublin - 2",
+    "ip": "54.72.247.193",
+    "ipv6": "",
+    "countryiso": "IRL",
+    "status": "Up"
+  },
+  "162": {
+    "guid": "326",
+    "servercode": "DNK01",
+    "title": "Denmark, Copenhagen - 1 ",
+    "ip": "185.134.28.17",
+    "ipv6": "",
+    "countryiso": "DNK",
+    "status": "Up"
+  },
+  "163": {
+    "guid": "327",
+    "servercode": "DEFR-4",
+    "title": "Germany, Frankfurt - 4",
+    "ip": "142.93.100.235",
+    "ipv6": "2a03:b0c0:3:d0::19a9:1001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "164": {
+    "guid": "328",
+    "servercode": "ZA4",
+    "title": "South Africa, Johannesburg - 4",
+    "ip": "13.245.199.158",
+    "ipv6": "",
+    "countryiso": "ZAF",
+    "status": "Up"
+  },
+  "165": {
+    "guid": "329",
+    "servercode": "DUB3",
+    "title": "Ireland, Dublin - 3",
+    "ip": "54.194.6.253",
+    "ipv6": "",
+    "countryiso": "IRL",
+    "status": "Up"
+  },
+  "166": {
+    "guid": "370",
+    "servercode": "AU4",
+    "title": "Australia, Sydney - 5",
+    "ip": "45.76.122.71",
+    "ipv6": "2001:19f0:5801:1107:5400:04ff:fe15:8c38",
+    "countryiso": "AUS",
+    "status": "Up"
+  },
+  "167": {
+    "guid": "371",
+    "servercode": "AU6",
+    "title": "Australia, Sydney - 6",
+    "ip": "45.77.235.246",
+    "ipv6": "2001:19f0:5801:5db:5400:04ff:fe15:8c39",
+    "countryiso": "AUS",
+    "status": "Up"
+  },
+  "168": {
+    "guid": "372",
+    "servercode": "DODE8",
+    "title": "Germany, Frankfurt - 8",
+    "ip": "167.172.171.150",
+    "ipv6": "2a03:b0c0:3:d0::19a7:7001",
+    "countryiso": "DEU",
+    "status": "Up"
+  },
+  "169": {
+    "guid": "375",
+    "servercode": "MEX2",
+    "title": "Mexico, Mexico City - 2",
+    "ip": "216.238.76.215",
+    "ipv6": "2001:19f0:b400:100b:5400:04ff:fe14:efa7",
+    "countryiso": "MEX",
+    "status": "Up"
+  },
+  "170": {
+    "guid": "376",
+    "servercode": "jp5",
+    "title": "Japan, Tokyo - 5",
+    "ip": "207.148.106.182",
+    "ipv6": "2001:19f0:7001:208b:5400:04ff:fe15:8c63",
+    "countryiso": "JPN",
+    "status": "Up"
+  },
+  "171": {
+    "guid": "377",
+    "servercode": "jp6",
+    "title": "Japan, Tokyo - 6",
+    "ip": "45.77.23.81",
+    "ipv6": "2001:19f0:7001:f2c:5400:04ff:fe15:8c65",
+    "countryiso": "JPN",
+    "status": "Up"
+  },
+  "172": {
+    "guid": "378",
+    "servercode": "SK1",
+    "title": "South Korea, Seoul - 1",
+    "ip": "141.164.58.9",
+    "ipv6": "2401:c080:1c02:ef0:5400:04ff:fe14:fcde",
+    "countryiso": "KOR",
+    "status": "Up"
+  },
+  "173": {
+    "guid": "379",
+    "servercode": "SK3",
+    "title": "South Korea, Seoul - 3",
+    "ip": "141.164.48.161",
+    "ipv6": "2401:c080:1c02:ba6:5400:04ff:fe14:fcdf",
+    "countryiso": "KOR",
+    "status": "Up"
+  },
+  "174": {
+    "guid": "380",
+    "servercode": "SK2",
+    "title": "South Korea, Seoul - 2",
+    "ip": "141.164.35.233",
+    "ipv6": "2401:c080:1c02:be:5400:04ff:fe14:fce0",
+    "countryiso": "KOR",
+    "status": "Up"
+  },
+  "175": {
+    "guid": "381",
+    "servercode": "SE2",
+    "title": "Sweden, Stockholm - 2",
+    "ip": "13.49.141.132",
+    "ipv6": "",
+    "countryiso": "SWE",
+    "status": "Up"
+  },
+  "176": {
+    "guid": "382",
+    "servercode": "SE3",
+    "title": "Sweden, Stockholm - 3",
+    "ip": "13.48.110.214",
+    "ipv6": "",
+    "countryiso": "SWE",
+    "status": "Up"
+  },
+  "177": {
+    "guid": "383",
+    "servercode": "CHZ2",
+    "title": "Switzerland, Zurich - 2",
+    "ip": "34.65.146.108",
+    "ipv6": "",
+    "countryiso": "CHE",
+    "status": "Up"
+  },
+  "178": {
+    "guid": "384",
+    "servercode": "CHZ3",
+    "title": "Switzerland, Zurich - 3",
+    "ip": "34.65.97.251",
+    "ipv6": "",
+    "countryiso": "CHE",
+    "status": "Up"
+  },
+  "179": {
+    "guid": "389",
+    "servercode": "BR1",
+    "title": "Brazil, Sao Paulo 01",
+    "ip": "34.95.163.121",
+    "ipv6": "",
+    "countryiso": "BRA",
+    "status": "Up"
+  },
+  "180": {
+    "guid": "390",
+    "servercode": "BR2",
+    "title": "Brazil, Sao Paulo 02",
+    "ip": "34.95.214.187",
+    "ipv6": "",
+    "countryiso": "BRA",
+    "status": "Up"
+  },
+  "181": {
+    "guid": "391",
+    "servercode": "BR3",
+    "title": "Brazil, Sao Paulo 03",
+    "ip": "35.199.96.243",
+    "ipv6": "",
+    "countryiso": "BRA",
+    "status": "Up"
+  },
+  "182": {
+    "guid": "394",
+    "servercode": "BEL2",
+    "title": "Belgium, Oostkamp - 2",
+    "ip": "34.78.123.120",
+    "ipv6": "",
+    "countryiso": "BEL",
+    "status": "Up"
+  },
+  "183": {
+    "guid": "395",
+    "servercode": "HK2",
+    "title": "Hong Kong - 2",
+    "ip": "34.92.171.119",
+    "ipv6": "",
+    "countryiso": "HKG",
+    "status": "Up"
+  },
+  "184": {
+    "guid": "399",
+    "servercode": "PL3",
+    "title": "Poland, Warsaw - 3",
+    "ip": "34.118.59.148",
+    "ipv6": "",
+    "countryiso": "POL",
+    "status": "Up"
+  },
+  "185": {
+    "guid": "400",
+    "servercode": "PL4",
+    "title": "Poland, Warsaw - 4",
+    "ip": "34.118.53.12",
+    "ipv6": "",
+    "countryiso": "POL",
+    "status": "Up"
+  },
+  "186": {
+    "guid": "401",
+    "servercode": "CHZ1",
+    "title": "Switzerland, Zurich - 1",
+    "ip": "34.65.97.99",
+    "ipv6": "",
+    "countryiso": "CHE",
+    "status": "Up"
+  },
+  "187": {
+    "guid": "402",
+    "servercode": "Poland",
+    "title": "Poland, Warsaw - 1",
+    "ip": "34.116.229.102",
+    "ipv6": "",
+    "countryiso": "POL",
+    "status": "Up"
+  },
+  "188": {
+    "guid": "403",
+    "servercode": "TELA1",
+    "title": "Israel, Tel Aviv - 2",
+    "ip": "34.165.13.190",
+    "ipv6": "",
+    "countryiso": "ISR",
+    "status": "Up"
+  },
+  "189": {
+    "guid": "404",
+    "servercode": "SG3",
+    "title": "Singapore",
+    "ip": "209.97.171.44",
+    "ipv6": "2400:6180:0:d0::141d:9001",
+    "countryiso": "SGP",
+    "status": "Up"
+  },
+  "190": {
+    "guid": "406",
+    "servercode": "TELA2",
+    "title": "Israel, Tel Aviv - 3",
+    "ip": "34.165.219.192",
+    "ipv6": "",
+    "countryiso": "ISR",
+    "status": "Up"
+  },
+  "191": {
+    "guid": "407",
+    "servercode": "TELA3",
+    "title": "Israel, Tel Aviv - 4",
+    "ip": "34.165.120.108",
+    "ipv6": "",
+    "countryiso": "ISR",
+    "status": "Up"
+  }
+}
