@@ -11,6 +11,7 @@ VPCID=$(aws ec2 describe-vpcs --region ap-southeast-2| jq ".Vpcs[].VpcId" -r)
 
 for VPC in $VPCID; do
     #echo $VPC                    # without adding any prefix
+    echo "-------------------" 
     echo "THIS VPC ID is : $VPC" # with pre-fix
-    #echo "---------"             # print line in b/w ip's
+    echo "-------------------"             # print line in b/w ip's
 done
