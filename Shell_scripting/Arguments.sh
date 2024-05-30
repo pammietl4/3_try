@@ -62,3 +62,9 @@ if [ $# -gt 0 ]; then
 else
     echo "you have not passed any Arguments, please provide it EX: us-east-1"
 fi
+
+#**********  #? to find the prevous command is executed success / failed ************
+
+aws ec2 describe-vpcs --region us-east-1
+
+echo $?   # to know previous command is success (0) / fail ( any no 127 or 1999)
