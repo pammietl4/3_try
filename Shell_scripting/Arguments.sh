@@ -41,29 +41,24 @@
 #     echo "you have passed $# Arguments"
 # done
 
-
 #********** if you don't pass any Arguments system should through error ******************
 
 echo "you have passed $# Arguments"
-if [ $# -gt 0]
-then
-for ITEM in $@; do
-    VPCID=$(aws ec2 describe-vpcs --region $ITEM | jq ".Vpcs[].VpcId" -r)
-    #echo "Lets get the VPC ID $ITEM"
+if [ $# -gt 0]; then
+    for ITEM in $@; do
+        VPCID=$(aws ec2 describe-vpcs --region $ITEM | jq ".Vpcs[].VpcId" -r)
+        #echo "Lets get the VPC ID $ITEM"
 
-    for VPC in $VPCID; do
-        #echo $VPC                    # without adding any prefix
-        #echo "====================================="
-        #echo $VPC
-        echo "This Argument is from $# : $VPC"
-        #echo "=====================================" # print line in b/w ip's
+        for VPC in $VPCID; do
+            #echo $VPC                    # without adding any prefix
+            #echo "====================================="
+            #echo $VPC
+            echo "This Argument is from $# : $VPC"
+            #echo "=====================================" # print line in b/w ip's
+        done
+        echo "====================="
+        echo "you have passed $# Arguments"
     done
-    echo "====================="
-    echo "you have passed $# Arguments"
-done
 else
-echo "you have not passed any Arguments, please provide it EX: us-east-1"
+    echo "you have not passed any Arguments, please provide it EX: us-east-1"
 fi
-
-
-
