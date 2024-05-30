@@ -43,7 +43,7 @@
 
 #********** if you don't pass any Arguments system should through error ******************
 
-echo "you have passed $# Arguments"
+#echo "you have passed $# Arguments"
 if [ $# -gt 0]; then
     for ITEM in $@; do
         VPCID=$(aws ec2 describe-vpcs --region $ITEM | jq ".Vpcs[].VpcId" -r)
