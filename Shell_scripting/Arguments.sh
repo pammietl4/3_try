@@ -28,7 +28,8 @@
 
 for ITEM in $@; do
     VPCID=$(aws ec2 describe-vpcs --region $ITEM | jq ".Vpcs[].VpcId" -r)
-    echo "Lets get the VPC ID $ITEM"
+    #echo "Lets get the VPC ID $ITEM"
+    echo "====================="
     for VPC in $VPCID; do
         #echo $VPC                    # without adding any prefix
         #echo "====================================="
