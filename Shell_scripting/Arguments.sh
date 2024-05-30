@@ -34,7 +34,7 @@ for ITEM in $@; do
         #echo $VPC                    # without adding any prefix
         #echo "====================================="
         #echo $VPC
-        echo "This Argument is from $# : $VPC"
+        echo "This Argument is from $* : $VPC"
         #echo "=====================================" # print line in b/w ip's
     done
     echo "====================="
