@@ -15,6 +15,8 @@ megastar
 # bash Output_redirectional.sh 1> /dev/null -- it will display failed records
 # bash Output_redirectional.sh 2> /dev/null -- it will display success records
 
+# 2&>1   -- redirecting stderr to stdout
+
 
 
 
