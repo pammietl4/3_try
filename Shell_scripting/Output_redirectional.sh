@@ -6,6 +6,9 @@
 # /dev/null  -- special file ( it will show the output of the code but it will not store the output data )
 # >  -- over writing the file
 # >> -- appending the date to existing file
+# tee 
+# tee -a
+# grep / egrep  -- finding some specific name/word from a file
 
 df -h
 mahesh babu
