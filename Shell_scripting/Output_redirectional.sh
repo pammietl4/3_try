@@ -8,7 +8,8 @@
 # >> -- appending the date to existing file
 # tee 
 # tee -a
-# grep / egrep  -- finding some specific name/word from a file
+# grep / egrep (-inwv) -- finding some specific name/word from a file
+# top / htop -- cpu / memory information 
 
 df -h
 mahesh babu
