@@ -20,6 +20,13 @@ megastar
 
 # 2&>1   -- redirecting stderr to stdout
 
+# ps -ef | grep -i ec2-user  -- 
+# ps -ef(input file) / grep 
+#-i (case sensitive) -w (word match) -v (it will print not matching word) -E (multi search)
+
+# ps -ef |grep -iE 'ec2-user|chrony'
+# ps -ef |grep -iE 'ec2-user|chrony' |grep -v grep
+
 
 
 
