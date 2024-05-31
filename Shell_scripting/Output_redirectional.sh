@@ -8,6 +8,8 @@
 # >> -- appending the date to existing file
 
 df -h
+mahesh babu
 ls -lart
 megastar
+
 
