@@ -34,12 +34,20 @@
 #     fi
 # done
 
+# **************** only odd no printing ******************
 
-**************** only odd no printing ******************
+# Set -x # debugging mode -- it will show the logs
+# for I in {2..100}; do
+#     if [ $(expr $I % 2) -ne 0 ]; then
+#         echo "$I is an Odd Number"
+#     fi
+# done
 
-Set -x # debugging mode -- it will show the logs
-for I in {2..100}; do
-    if [ $(expr $I % 2) -ne 0 ]; then
-        echo "$I is an Odd Number"
-    fi
-done
+************ while executing the script we need to provide the number then it will display it is Even / odd *********
+
+NUM=$1
+if [ $(expr $NUM % 2) -ne 0 ]; then
+    echo "$NUM is an Odd Number"
+else
+    echo "$NUM is an Even Number"
+fi
