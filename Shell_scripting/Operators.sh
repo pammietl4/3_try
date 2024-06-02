@@ -16,7 +16,7 @@
 
 Set -x # debugging mode -- it will show the logs
 for I in {2..100}; do
-    if [ $(expr $I / 2) -eq 0 ]; then
+    if [ $(expr $I % 2) -eq 0 ]; then
         echo "$I is an Even Number"
     else
         echo "$I is an Odd Number"
