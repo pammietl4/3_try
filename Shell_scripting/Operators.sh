@@ -15,7 +15,7 @@
 # X=$(expr 5 - 3 \* 6 / 2)
 
 Set -x # debugging mode -- it will show the logs
-for I in {1..100}; do
+for I in {2..100}; do
     if [ $(expr $I / 2) -eq 0 ]; then
         echo "$I is an Even Number"
     else
