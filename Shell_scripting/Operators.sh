@@ -10,6 +10,15 @@
 #                                                    --
 #                                                     0
 
-X=$(expr 10 / 5)
-X=$(expr 10 % 2)
-X=$(expr 5 - 3 \* 6 / 2)
+# X=$(expr 10 / 5)
+# X=$(expr 10 % 2)
+# X=$(expr 5 - 3 \* 6 / 2)
+
+Set -x # debugging mode -- it will show the logs
+for I in {1..100}; do
+    if [ $(expr $I / 2) -eq 0 ]; then
+        echo "$I is an Even Number"
+    else
+        echo "$I is an Odd Number"
+    fi
+done
