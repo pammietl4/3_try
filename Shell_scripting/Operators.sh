@@ -43,25 +43,35 @@
 #     fi
 # done
 
-#************ while executing the script we need to provide the number then it will display it is Even / odd *********
+# #************ while executing the script we need to provide the number then it will display it is Even / odd *********
 
+# NUM=$1
+# if [[ $(expr $NUM % 2) -ne 0 ]]; then
+#     echo "$NUM is an Odd Number"
+# else
+#     echo "$NUM is an Even Number"
+#     echo "you have not passed any Arguments, please provide it EX: 22"
+# fi
+
+# #*********  while executing the script if you don't pass any Arguments it should throuhs error ************
+
+# if [ $# -ne 1 ]; then
+#     echo "you have not passed any Arguments, please provide it EX: 22"
+# else
+#     NUM=$#
+#     if [[ $(expr $NUM % 2) -ne 0 ]]; then
+#         echo "$NUM is an Odd Number"
+#     else
+#         echo "$NUM is an Even Number"
+#     fi
+# fi
+
+# *********** prompt for entering the number *****************
+
+read -p "Enter the Number:" NUM
 NUM=$1
 if [[ $(expr $NUM % 2) -ne 0 ]]; then
     echo "$NUM is an Odd Number"
 else
     echo "$NUM is an Even Number"
-    echo "you have not passed any Arguments, please provide it EX: 22"
-fi
-
-#*********  while executing the script if you don't pass any Arguments it should throuhs error ************
-
-if [ $# -ne 1 ]; then
-    echo "you have not passed any Arguments, please provide it EX: 22"
-else
-    NUM=$#
-    if [[ $(expr $NUM % 2) -ne 0 ]]; then
-        echo "$NUM is an Odd Number"
-    else
-        echo "$NUM is an Even Number"
-    fi
 fi
