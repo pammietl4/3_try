@@ -14,11 +14,32 @@
 # X=$(expr 10 % 2)
 # X=$(expr 5 - 3 \* 6 / 2)
 
+# # ********* print Even & Odd Numbers *************************
+
+# Set -x # debugging mode -- it will show the logs
+# for I in {2..100}; do
+#     if [ $(expr $I % 2) -eq 0 ]; then
+#         echo "$I is an Even Number"
+#     else
+#         echo "$I is an Odd Number"
+#     fi
+# done
+
+# # ***************** only Even no printing ******************
+
+# Set -x # debugging mode -- it will show the logs
+# for I in {2..100}; do
+#     if [ $(expr $I % 2) -eq 0 ]; then
+#         echo "$I is an Even Number"
+#     fi
+# done
+
+
+**************** only odd no printing ******************
+
 Set -x # debugging mode -- it will show the logs
 for I in {2..100}; do
-    if [ $(expr $I % 2) -eq 0 ]; then
-        echo "$I is an Even Number"
-    else
+    if [ $(expr $I % 2) -ne 0 ]; then
         echo "$I is an Odd Number"
     fi
 done
