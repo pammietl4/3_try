@@ -76,3 +76,25 @@ elif [ $CURRENT_AGE -gt 50 -a $CURRENT_AGE -lt 100 ]; then
 else
     echo "You'r $CURRENT_AGE Years old, you are not recomanded to Drive for your safety"
 fi
+
+#********** String Operators *************
+
+# -z #Checks if the given string operand size is zero; if it is zero length, then it returns true.   -- if you don't pass any input values ( Zero 0)  --
+# -n #Checks if the given string operand size is non-zero; if it is nonzero length, then it returns true.
+
+read -r -p "Please provide your DOB:" YOB
+if [ -z $YOB]; then
+    echo "you have not entered your YOB"
+else
+    CURRENT_AGE=$(expr 2024 - $YOB)
+    #echo $CURRENT_AGE
+    if [ $CURRENT_AGE -lt 18 ]; then
+        echo "Your $CURRENT_AGE is less than 18, please wait till you reach the Age limit"
+    elif [ $CURRENT_AGE -gt 18 -a $CURRENT_AGE -lt 50 ]; then
+        echo "You'r $CURRENT_AGE Years old, you can apply for the Driving license"
+    elif [ $CURRENT_AGE -gt 50 -a $CURRENT_AGE -lt 100 ]; then
+        echo "You'r $CURRENT_AGE Years old, please provide Medical Bills to get the Driving license"
+    else
+        echo "You'r $CURRENT_AGE Years old, you are not recomanded to Drive for your safety"
+    fi
+fi
