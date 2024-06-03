@@ -67,3 +67,12 @@
 read -r -p "Please provide your DOB:" YOB
 CURRENT_AGE=$(expr 2024 - $YOB)
 echo $CURRENT_AGE
+if [ $CURRENT_AGE -lt 18 ]; then
+    echo "Your $CURRENT_AGE is less than 18, please wait till you reach the Age limit"
+elif [ $CURRENT_AGE -gt 18 -a $CURRENT_AGE -lt 50 ]; then
+    echo "You'r $CURRENT_AGE Years old, you can apply for the Driving license"
+elif [ $CURRENT_AGE -gt 50 -a $CURRENT_AGE -lt 100 ]; then
+    echo "You'r $CURRENT_AGE Years old, please provide Medical Bills to get the Driving license"
+else
+    echo "You'r $CURRENT_AGE Years old, you are not recomanded to Drive for your safety"
+fi
