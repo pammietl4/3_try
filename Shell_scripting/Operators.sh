@@ -83,7 +83,7 @@ fi
 # -n #Checks if the given string operand size is non-zero; if it is nonzero length, then it returns true.
 
 read -r -p "Please provide your DOB:" YOB
-if [ -z $YOB]; then
+if [ -z $YOB ]; then
     echo "you have not entered your YOB"
 else
     CURRENT_AGE=$(expr 2024 - $YOB)
