@@ -56,7 +56,7 @@
 # *********** prompt for entering the number (Boolean Operators) *****************
 
 read -p "Enter the Name:" STRING
-if [ ${STRING} == 'SUPERSTAR' -o ${STRING} == 'superstar' -o ${STRING} == 'Superstar' ]; then
+if [ ${STRING} == 'SUPERSTAR' -o ${STRING} == 'superstar' -o ${STRING} == 'Superstar' ]; then  #-o is (OR) operator
     echo "He is Mahesh Babu"
 else
     echo "He is not an Actor"
