@@ -53,11 +53,17 @@
 #     echo "you have not passed any Arguments, please provide it EX: 22"
 # fi
 
-# *********** prompt for entering the number (Boolean Operators) *****************
+# *********** prompt for entering the number (Boolean Operators -- OR condition) *****************
 
-read -p "Enter the Name:" STRING
-if [ ${STRING} == 'SUPERSTAR' -o ${STRING} == 'superstar' -o ${STRING} == 'Superstar' ]; then  #-o is (OR) operator
-    echo "He is Mahesh Babu"
-else
-    echo "He is not an Actor"
-fi
+# read -p "Enter the Name:" STRING
+# if [ ${STRING} == 'SUPERSTAR' -o ${STRING} == 'superstar' -o ${STRING} == 'Superstar' ]; then  #-o is (OR) operator
+#     echo "He is Mahesh Babu"
+# else
+#     echo "He is not an Actor"
+# fi
+
+# *********** prompt for entering the number Driving License (Boolean Operators  -- AND condition) *****************
+
+read -r -p "Please provide your DOB:" YOB
+CURRENT_AGE=$(expr 2024 - $YOB)
+echo $CURRENT_AGE
