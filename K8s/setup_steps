@@ -1,0 +1,19 @@
+export CLUSTER_NAME=lmlfinance.xyz
+export AWS_REGION=ap-southeast-2
+export NAME=lmlfinance.xyz
+export KOPS_STATE_STORE=s3://lmlfinance.xyz
+export KUBE_EDITOR=vim
+
+kops create cluster --name=lmlfinance.xyz \
+  --state=s3://lmlfinance.xyz \
+  --zones=ap-southeast-2a,ap-southeast-2b \
+  --node-count=1 \
+  --control-plane-count=3 \
+  --control-plane-size=t3.medium \
+  --control-plane-zones=ap-southeast-2a,ap-southeast-2b \
+  --control-plane-volume-size 10 \
+  --node-volume-size 10 \
+  --node-size=t3.medium \
+  --ssh-public-key ~/.ssh/id_rsa.pub \
+  --dns-zone=lmlfinance.xyz \
+  --networking calico 
