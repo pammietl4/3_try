@@ -25,6 +25,7 @@ kops create cluster --name=lmlfinance.xyz \
   --ssh-public-key ~/.ssh/id_rsa.pub \
   --dns-zone=lmlfinance.xyz \
   --networking calico  # --yes (if you are not use --yes cluster will not deploy)
+  --dry-run -o yaml > lmlfinance.yaml
 
 
   
