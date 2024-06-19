@@ -1,8 +1,14 @@
+
+# open this file & paste the below details
+vim .bashrc  
+
 export CLUSTER_NAME=lmlfinance.xyz
 export AWS_REGION=ap-southeast-2
 export NAME=lmlfinance.xyz
 export KOPS_STATE_STORE=s3://lmlfinance.xyz
 export KUBE_EDITOR=vim
+
+# to create cluster 
 
 kops create cluster --name=lmlfinance.xyz \
   --state=s3://lmlfinance.xyz \
@@ -16,4 +22,7 @@ kops create cluster --name=lmlfinance.xyz \
   --node-size=t3.medium \
   --ssh-public-key ~/.ssh/id_rsa.pub \
   --dns-zone=lmlfinance.xyz \
-  --networking calico 
+  --networking calico  # --yes (if you are not use --yes cluster will not deploy)
+
+
+  
