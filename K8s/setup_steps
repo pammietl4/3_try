@@ -8,6 +8,8 @@ export NAME=lmlfinance.xyz
 export KOPS_STATE_STORE=s3://lmlfinance.xyz
 export KUBE_EDITOR=vim
 
+#validation for the above details are added or not
+#root@ip-10-20-0-112:~# env
 # to create cluster 
 
 kops create cluster --name=lmlfinance.xyz \
