@@ -24,8 +24,11 @@ kops create cluster --name=lmlfinance.xyz \
   --node-size=t3.medium \
   --ssh-public-key ~/.ssh/id_rsa.pub \
   --dns-zone=lmlfinance.xyz \
-  --networking calico  # --yes (if you are not use --yes cluster will not deploy)
+  --networking calico  \
   --dry-run -o yaml > lmlfinance.yaml
+  
+  # --networking calico --yes (if you are not use --yes cluster will not deploy created as ) 
+  
 
 
   

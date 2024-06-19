@@ -1,0 +1,348 @@
+root@ip-10-20-0-112:~# cat lmlfinance.yaml 
+apiVersion: kops.k8s.io/v1alpha2
+kind: Cluster
+metadata:
+  creationTimestamp: null
+  name: lmlfinance.xyz
+spec:
+  api:
+    dns: {}
+  authorization:
+    rbac: {}
+  channel: stable
+  cloudProvider: aws
+  configBase: s3://lmlfinance.xyz/lmlfinance.xyz
+  dnsZone: lmlfinance.xyz
+  etcdClusters:
+  - cpuRequest: 200m
+    etcdMembers:
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2a-1
+      name: a-1
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2b-1
+      name: b-1
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2a-2
+      name: a-2
+    manager:
+      backupRetentionDays: 90
+    memoryRequest: 100Mi
+    name: main
+  - cpuRequest: 100m
+    etcdMembers:
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2a-1
+      name: a-1
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2b-1
+      name: b-1
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2a-2
+      name: a-2
+    manager:
+      backupRetentionDays: 90
+    memoryRequest: 100Mi
+    name: events
+  iam:
+    allowContainerRegistry: true
+    legacy: false
+  kubelet:
+    anonymousAuth: false
+  kubernetesApiAccess:
+  - 0.0.0.0/0
+  - ::/0
+  kubernetesVersion: 1.29.6
+  masterPublicName: api.lmlfinance.xyz
+  networkCIDR: 172.20.0.0/16
+  networking:
+    calico: {}
+  nonMasqueradeCIDR: 100.64.0.0/10
+  sshAccess:
+  - 0.0.0.0/0
+  - ::/0
+  subnets:
+  - cidr: 172.20.0.0/17
+    name: ap-southeast-2a
+    type: Public
+    zone: ap-southeast-2a
+  - cidr: 172.20.128.0/17
+    name: ap-southeast-2b
+    type: Public
+    zone: ap-southeast-2b
+  topology:
+    dns:
+      type: Public
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: lmlfinance.xyz
+  name: control-plane-ap-southeast-2a-1
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20240607
+  machineType: t3.medium
+  maxSize: 1
+  minSize: 1
+  role: Master
+  rootVolumeSize: 10
+  subnets:
+  - ap-southeast-2a
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: lmlfinance.xyz
+  name: control-plane-ap-southeast-2b-1
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20240607
+  machineType: t3.medium
+  maxSize: 1
+  minSize: 1
+  role: Master
+  rootVolumeSize: 10
+  subnets:
+  - ap-southeast-2b
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: lmlfinance.xyz
+  name: control-plane-ap-southeast-2a-2
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20240607
+  machineType: t3.medium
+  maxSize: 1
+  minSize: 1
+  role: Master
+  rootVolumeSize: 10
+  subnets:
+  - ap-southeast-2a
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: lmlfinance.xyz
+  name: nodes-ap-southeast-2a
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20240607
+  machineType: t3.medium
+  maxSize: 1
+  minSize: 1
+  role: Node
+  rootVolumeSize: 10
+  subnets:
+  - ap-southeast-2a
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: lmlfinance.xyz
+  name: nodes-ap-southeast-2b
+spec:
+root@ip-10-20-0-112:~# 
+root@ip-10-20-0-112:~# 
+root@ip-10-20-0-112:~# 
+root@ip-10-20-0-112:~# cat lmlfinance.yaml 
+apiVersion: kops.k8s.io/v1alpha2
+kind: Cluster
+metadata:
+  creationTimestamp: null
+  name: lmlfinance.xyz
+spec:
+  api:
+    dns: {}
+  authorization:
+    rbac: {}
+  channel: stable
+  cloudProvider: aws
+  configBase: s3://lmlfinance.xyz/lmlfinance.xyz
+  dnsZone: lmlfinance.xyz
+  etcdClusters:
+  - cpuRequest: 200m
+    etcdMembers:
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2a-1
+      name: a-1
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2b-1
+      name: b-1
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2a-2
+      name: a-2
+    manager:
+      backupRetentionDays: 90
+    memoryRequest: 100Mi
+    name: main
+  - cpuRequest: 100m
+    etcdMembers:
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2a-1
+      name: a-1
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2b-1
+      name: b-1
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-southeast-2a-2
+      name: a-2
+    manager:
+      backupRetentionDays: 90
+    memoryRequest: 100Mi
+    name: events
+  iam:
+    allowContainerRegistry: true
+    legacy: false
+  kubelet:
+    anonymousAuth: false
+  kubernetesApiAccess:
+  - 0.0.0.0/0
+  - ::/0
+  kubernetesVersion: 1.29.6
+  masterPublicName: api.lmlfinance.xyz
+  networkCIDR: 172.20.0.0/16
+  networking:
+    calico: {}
+  nonMasqueradeCIDR: 100.64.0.0/10
+  sshAccess:
+  - 0.0.0.0/0
+  - ::/0
+  subnets:
+  - cidr: 172.20.0.0/17
+    name: ap-southeast-2a
+    type: Public
+    zone: ap-southeast-2a
+  - cidr: 172.20.128.0/17
+    name: ap-southeast-2b
+    type: Public
+    zone: ap-southeast-2b
+  topology:
+    dns:
+      type: Public
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: lmlfinance.xyz
+  name: control-plane-ap-southeast-2a-1
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20240607
+  machineType: t3.medium
+  maxSize: 1
+  minSize: 1
+  role: Master
+  rootVolumeSize: 10
+  subnets:
+  - ap-southeast-2a
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: lmlfinance.xyz
+  name: control-plane-ap-southeast-2b-1
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20240607
+  machineType: t3.medium
+  maxSize: 1
+  minSize: 1
+  role: Master
+  rootVolumeSize: 10
+  subnets:
+  - ap-southeast-2b
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: lmlfinance.xyz
+  name: control-plane-ap-southeast-2a-2
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20240607
+  machineType: t3.medium
+  maxSize: 1
+  minSize: 1
+  role: Master
+  rootVolumeSize: 10
+  subnets:
+  - ap-southeast-2a
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: lmlfinance.xyz
+  name: nodes-ap-southeast-2a
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20240607
+  machineType: t3.medium
+  maxSize: 1
+  minSize: 1
+  role: Node
+  rootVolumeSize: 10
+  subnets:
+  - ap-southeast-2a
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: lmlfinance.xyz
+  name: nodes-ap-southeast-2b
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20240607
+  machineType: t3.medium
+  maxSize: 0
+  minSize: 0
+  role: Node
+  rootVolumeSize: 10
+  subnets:
+  - ap-southeast-2b
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: SSHCredential
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: lmlfinance.xyz
+  name: admin
+spec:
+  publicKey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC1i9MkbqCoONT6UQ3IdOA4ri1ULA6Y4IM06oaoZnBN4BTE5Pcclh+oh6NM7rs7dTxsJw+K+4hIRHWbFwHJc61vSTywiW3FqaY83oTqWfKBZNkXX7XJQxNt0m5bM5f8E4wY+Vj8/FRBLu1VU8P6bFEULd1LEJJpzdsvyzYl7CDDjlBSzqrl50On6Vwgr1zGQ9LSdAbc3w4Q06AYQ8d+DlXkbAJsZb2wmg2OMJB8/z7tBl6/8VpDAfe+8Ukzs8tXXrf0Jx2c9xNeEsWekGRfeXEr/d8rqGIuxeY5tnRgg9VwX9MVrIuwkB9wLasY3p2kFEZUfYyDxqYonsic6hRUWgAQGnz1a/VM7nP6GbWRybLX6b5Z3Mu6owBcpVZNyIzrvXmhpirNbcXfX/vzA8xdG2L0Idx8dBiNnZv2aT0KfeeuCpbZR1a1rnHAPH6ultneVHogqaotdyMKhYpkTKe7FWYg6hF+0RmsN7fhZvGb3UWatMhRvc3TBZj3VUneJryfrs8=
+    root@ip-10-20-0-112
