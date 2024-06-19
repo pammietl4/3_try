@@ -1,4 +1,3 @@
-root@ip-10-20-0-112:~# cat lmlfinance.yaml 
 apiVersion: kops.k8s.io/v1alpha2
 kind: Cluster
 metadata:
