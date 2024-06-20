@@ -12,7 +12,7 @@ kops create cluster --name=lmlfinance.xyz \
   --node-count=2 \
   --control-plane-count=1 \
   --control-plane-size=t3.medium \
-  --control-plane-zones=ap-southeast-2a,ap-southeast-2b \
+  --control-plane-zones=ap-southeast-2a \
   --control-plane-volume-size 10 \
   --node-volume-size 10 \
   --node-size=t3.medium \
