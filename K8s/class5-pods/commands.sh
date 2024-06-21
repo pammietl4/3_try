@@ -1,2 +1,4 @@
-Imperative format (command execution) 
-Kubectl run testpod1 --image nginx:latest
+Imperative format (command execution)
+#Creation of pod 
+kubectl run testpod1 --image=nginx
+#deletion of pod
