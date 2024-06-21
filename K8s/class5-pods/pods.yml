@@ -12,4 +12,18 @@ spec:
      -name
 
 
+#without creating any file you can directly copy & paste above code in linux by placing "echo" command
+
+echo 'apiVersion: v1
+kind: Pod
+metadata:
+    labels:
+    run: testpod2
+    name: testpod2
+spec:
+  containers:
+  - image: nginx:latest
+    name: testpod2' | kubectl run -f -
+
+
     
