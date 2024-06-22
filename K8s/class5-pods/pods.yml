@@ -1,3 +1,4 @@
+Steps to create pod via file
 #how to get the below code, please follow the below process
 #kubectl run testpod1 --image nginx --dry-run -o yaml (below code will be displayed copy it & save it into new file)
 
@@ -22,19 +23,19 @@ kubectl apply -f app.yml --dry-run
 kubectl apply -f app.yml
 
 
-
+steps to create pod directly
 #without creating any file you can directly copy & paste above code in linux by placing "echo" command
 
 echo 'apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    run: testpod1
-  name: testpod1
+    run: testpod3
+  name: testpod3
 spec:
   containers:
   - image: nginx
-    name: testpod1' | kubectl run -f -
+    name: testpod3' | kubectl run -f -
 
 
 
