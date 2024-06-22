@@ -17,3 +17,6 @@ kubectl logs testpod1 -f  (latest logs)
 kubectl exec -it testpod2 -- env
 kubectl exec -it testpod2 -- ls -al
 kubectl exec -it testpod2 -- bash
+
+#pod describe
+kubectl describe pod testpod1
