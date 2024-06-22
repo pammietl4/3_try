@@ -1,15 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-    labels:
-    run: testpod2
-  name: testpod2
+  labels:
+    run: testpod1
+  name: testpod1
 spec:
   containers:
-  - image: nginx:latest
-    name: testpod2
-    env:
-     -name
+  - image: nginx
+    name: testpod1
 
 
 #without creating any file you can directly copy & paste above code in linux by placing "echo" command
@@ -17,13 +15,17 @@ spec:
 echo 'apiVersion: v1
 kind: Pod
 metadata:
-    labels:
-    run: testpod2
-    name: testpod2
+  labels:
+    run: testpod1
+  name: testpod1
 spec:
   containers:
-  - image: nginx:latest
-    name: testpod2' | kubectl run -f -
+  - image: nginx
+    name: testpod1' | kubectl run -f -
+
+
+
+
 
 
     
