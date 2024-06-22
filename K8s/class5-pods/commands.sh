@@ -20,3 +20,16 @@ kubectl exec -it testpod2 -- bash
 
 #pod describe
 kubectl describe pod testpod1
+
+#linux command to split screen
+tmux --> ctrl b + shift "  (you will see 2 windows in 1 screen)
+#how to move the cursor in this case 
+ctrl v + up arrow / ctrl v + down arrow
+
+watch -n 1 kubectl get pods
+
+#delete pods
+kubectl delete pod frontend-7wpmr
+
+#forceful deletion of pod
+kubectl delete pod frontend-f2wt5 --force --grace-period 0
