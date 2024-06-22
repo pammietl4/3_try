@@ -1,3 +1,6 @@
+#how to get the below code, please follow the below process
+#kubectl run testpod1 --image nginx --dry-run -o yaml (below code will be displayed copy it & save it into new file)
+
 apiVersion: v1
 kind: Pod
 metadata:
@@ -8,6 +11,16 @@ spec:
   containers:
   - image: nginx
     name: testpod1
+
+#save the above code into new file
+nano app.yml
+
+# validate the newly created file by using the below command
+kubectl apply -f app.yml --dry-run
+
+# if the above command is success then please use the below command to create pod
+kubectl apply -f app.yml
+
 
 
 #without creating any file you can directly copy & paste above code in linux by placing "echo" command
