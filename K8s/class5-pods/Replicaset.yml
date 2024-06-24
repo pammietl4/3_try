@@ -36,3 +36,5 @@ kubectl delete pod frontend-7wpmr
 kubectl delete pod frontend-f2wt5 --force --grace-period 0
 
 
+
+

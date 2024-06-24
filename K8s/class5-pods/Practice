@@ -1,0 +1,18 @@
+
+Kubectl run testpod2 --image nginx --dry-run -o yaml (to get the below file code)
+
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: testpod2
+  name: testpod2
+spec:
+  containers:
+  - image: nginx
+    name: testpod2
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
+
