@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-   labels:
+  labels:
     app: app1
   name: app1
 spec:
@@ -20,3 +20,7 @@ spec:
         name: testcontainer
 #        resources: {}
 #status: {}
+
+
+#deployment delete
+kubectl delete deployment app1
