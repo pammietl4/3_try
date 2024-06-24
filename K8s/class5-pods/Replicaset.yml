@@ -25,7 +25,7 @@ spec:
 #linux command to split screen
 tmux --> ctrl b + shift "  (you will see 2 windows in 1 screen)
 #how to move the cursor in this case 
-ctrl v + up arrow / ctrl v + down arrow
+ctrl b + up arrow / ctrl b + down arrow
 
 watch -n 1 kubectl get pods
 
