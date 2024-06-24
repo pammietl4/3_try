@@ -30,6 +30,7 @@ ctrl b + up arrow / ctrl b + down arrow
 watch -n 1 kubectl get pods
 
 #delete pods
+kubectl delete pods --all
 kubectl delete pod frontend-7wpmr
 ku delete pod flipkart-ltzcc flipkart-mkpr5 flipkart-r4v66
 
