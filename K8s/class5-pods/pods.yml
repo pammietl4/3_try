@@ -35,7 +35,7 @@ metadata:
 spec:
   containers:
   - image: nginx
-    name: testpod3' | kubectl run -f -
+    name: testpod3' | kubectl create -f -
 
 
 
