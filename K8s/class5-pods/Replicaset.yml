@@ -31,9 +31,22 @@ watch -n 1 kubectl get pods
 
 #delete pods
 kubectl delete pod frontend-7wpmr
+ku delete pod flipkart-ltzcc flipkart-mkpr5 flipkart-r4v66
 
 #forceful deletion of pod
 kubectl delete pod frontend-f2wt5 --force --grace-period 0
+
+#Label pods
+kubectl get pods --show-labels
+
+#pod information
+kubectl get pods -o wide (detailed information of pods)
+
+#scale pods
+kubectl scale ReplicaSet flipkart --replicas 8
+
+
+
 
 
 
