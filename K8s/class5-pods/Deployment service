@@ -5,11 +5,15 @@ metadata:
     app: app1
   name: app1
 spec:
-  replicas: 4
+  minReadyseconds: 10
+  replicas: 6
   selector:
     matchLabels:
       app: app1
-  #strategy: {}
+  strategy:    
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
   template:
     metadata:      
       labels:
@@ -19,6 +23,9 @@ spec:
       - image: nginx
         name: nginx
 
+# create a txt file(app.yml) using above code
+kubectl apply -f app.yml
+
 #to get the above code
 kubectl create deployment app1 --image nginx --replicas 4 --dry-run -o yaml
 
@@ -27,3 +34,14 @@ kubectl edit deployment.app app1
 
 #deployment delete
 kubectl delete deployment app1
+
+# deployment list
+kubectl get deployments -o wide
+
+# Replicaset list
+kubectl get replicaset -o wide
+
+#pods list
+kubectl get pods --show-labels
+
+
