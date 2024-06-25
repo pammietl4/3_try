@@ -16,3 +16,26 @@ spec:
   restartPolicy: Always
 status: {}
 
+#############
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: oscar
+  name: oscar
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: oscar
+  strategy: {}
+  template:
+    metadata:      
+      labels:
+        app: oscar
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        
