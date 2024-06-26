@@ -8,6 +8,9 @@ export NAME=lmlfinance.xyz
 export KOPS_STATE_STORE=s3://lmlfinance.xyz
 export KUBE_EDITOR=nano
 
+#once you update the .bashrc file use below command to sync
+source .bashrc
+
 #cluster creation
 kops create cluster --name=lmlfinance.xyz \
   --state=s3://lmlfinance.xyz \
