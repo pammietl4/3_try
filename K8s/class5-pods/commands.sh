@@ -1,3 +1,13 @@
+#Before creatring cluster, we need to fill the below details in .bashrc path
+# open this file & paste the below details
+vim .bashrc  
+
+export CLUSTER_NAME=lmlfinance.xyz
+export AWS_REGION=ap-southeast-2
+export NAME=lmlfinance.xyz
+export KOPS_STATE_STORE=s3://lmlfinance.xyz
+export KUBE_EDITOR=nano
+
 #cluster creation
 kops create cluster --name=lmlfinance.xyz \
   --state=s3://lmlfinance.xyz \
