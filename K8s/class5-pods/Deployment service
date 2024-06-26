@@ -1,3 +1,7 @@
+#Run this command to get the below code
+kubectl create deployment app1 --image nginx --replicas 4 --dry-run -o yaml
+
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:  
@@ -23,17 +27,12 @@ spec:
       - image: nginx
         name: nginx
 
-# create a txt file(app.yml) using above code
+# copy above code into a txt file(app.yml) & use the below command to execute it
 kubectl apply -f app.yml
 
-#to get the above code
-kubectl create deployment app1 --image nginx --replicas 4 --dry-run -o yaml
 
-#to edit deployment.app
+#to modify images/env/replicas use the below code
 kubectl edit deployment.app app1
-
-#deployment delete
-kubectl delete deployment app1
 
 # deployment list
 kubectl get deployments -o wide
@@ -43,5 +42,10 @@ kubectl get replicaset -o wide
 
 #pods list
 kubectl get pods --show-labels
+
+#deployment delete
+kubectl delete deployment app1
+
+
 
 
