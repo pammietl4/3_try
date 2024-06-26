@@ -1,13 +1,34 @@
+#cluster creation
+kops create cluster --name=lmlfinance.xyz \
+  --state=s3://lmlfinance.xyz \
+  --zones=ap-southeast-2a,ap-southeast-2b \
+  --node-count=2 \
+  --control-plane-count=1 \
+  --control-plane-size=t3.medium \
+  --control-plane-zones=ap-southeast-2a \
+  --control-plane-volume-size 10 \
+  --node-volume-size 10 \
+  --node-size=t3.medium \
+  --ssh-public-key ~/.ssh/id_rsa.pub \
+  --dns-zone=lmlfinance.xyz \
+  --networking calico  --yes
+
+# cluster creation via file! copy above code into file(lmlfinance.yaml)
+kops create -f lmlfinance.yaml
 
 #cluster information
 kubectl cluster-info
+
+#update cluster
+kops update cluster --name lmlfinance.xyz --yes –admin
 
 #node information
 kubectl get nodes
 kubectl get nodes -o wide
 
-Imperative format (command execution)
-#Creation of pod 
+
+#Creation of pod
+#Imperative format (command execution)
 kubectl run testpod1 --image=nginx
 #deletion of pod
 
