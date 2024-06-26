@@ -1,6 +1,11 @@
-Steps to create pod via file
-#how to get the below code, please follow the below process
-#kubectl run testpod1 --image nginx --dry-run -o yaml (below code will be displayed copy it & save it into new file)
+#Basic pod creation via command line
+kubectl run <name_of_the_pod> --image=nginx
+
+#Pod creation via yaml file
+kubectl create -f testpod1.yml
+
+#Steps to create testpod1.yml file
+kubectl run testpod1 --image nginx --dry-run -o yaml (below code will be displayed copy it & save it into new file)
 
 apiVersion: v1
 kind: Pod
@@ -14,13 +19,13 @@ spec:
     name: testpod1
 
 #save the above code into new file
-nano app.yml
+nano testpod1.yml
 
 # validate the newly created file by using the below command
-kubectl apply -f app.yml --dry-run
+kubectl apply -f testpod1.yml --dry-run
 
 # if the above command is success then please use the below command to create pod
-kubectl apply -f app.yml
+kubectl apply -f testpod1.yml
 
 
 steps to create pod directly
@@ -36,6 +41,28 @@ spec:
   containers:
   - image: nginx
     name: testpod3' | kubectl create -f -
+
+
+#list the pods
+kubectl get pods
+kubectl get pods -o wide
+
+#know the pod details like cpu memory from main server only
+kubectl exec -it testpod2 -- env
+kubectl exec -it testpod2 -- ls -al
+
+#swith from Mainserver to pod
+kubectl exec -it testpod2 -- bash
+
+#pod describe
+kubectl describe pods
+kubectl describe pod testpod1
+
+#pod delete
+kubectl delete pod testpod1
+
+#forcefully pod deletion
+kubectl delete pod testpod1 --force --grace-period 0
 
 
 
