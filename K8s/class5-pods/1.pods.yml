@@ -51,7 +51,7 @@ kubectl get pods -o wide
 kubectl exec -it testpod2 -- env
 kubectl exec -it testpod2 -- ls -al
 
-#swith from Mainserver to pod
+#swith from Mainserver to pod 
 kubectl exec -it testpod2 -- bash
 
 #pod describe
