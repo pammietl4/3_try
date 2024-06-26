@@ -1,3 +1,11 @@
+
+#cluster information
+kubectl cluster-info
+
+#node information
+kubectl get nodes
+kubectl get nodes -o wide
+
 Imperative format (command execution)
 #Creation of pod 
 kubectl run testpod1 --image=nginx
