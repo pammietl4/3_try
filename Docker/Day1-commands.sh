@@ -61,6 +61,23 @@ docker rm -f $(docker ps -aq)
 docker rm < container_id >
 docker rm $(docker ps -aq)
 
+#docker port-forwarding (imagine we have 3 containers frontend/backend/database)
+docker run --rm -d --name frontend -p 8000:80 nginx:latest
+docket run --rm -d --name backend -p 8001:80 kiran2361993/rollingupdate:v10
+docket run --rm -d --name database -p 8002:80 nginx
+
+#containers path
+cd /var/lib/docker/containers/
+
+#Once containers are created login to it & get the logs
+cd /var/lib/docker/containers/<container_id> 
+ll
+cat a2036bd1660840fec44567f27d5f53e5b6ae776c2c56d83f150d880af98b1cf6-json.log | jq
+cat a2036bd1660840fec44567f27d5f53e5b6ae776c2c56d83f150d880af98b1cf6-json.log | jq > INC01478528.log
+
+
+
+
 
 
 
