@@ -20,6 +20,12 @@ docker
 #container creation
 docker run -d --name app1 nginx
 
+#creation of containers via shell scrip
+for i in {1..6}
+do
+docker run -d nginx
+done
+
 #list containers
 docker container ls
 
