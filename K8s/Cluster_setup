@@ -51,6 +51,14 @@ kubectl get nodes -o wide
 
 # cluster deletion
 kops delete cluster --name lmlfinance.xyz --yes
+
+#once cluster is deleted, remove the config file from .kube
+rm -rf .kube/config
+
+#Cluster GUI (Lens)
+Cat .kube/config
+
+#copy the output of above command & paste it in Lens (you will see cluster information in GUI)
   
 
 
