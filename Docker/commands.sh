@@ -17,8 +17,12 @@ docker image ls
 #container creation
 docker run -d --name app1 nginx
 
-#list conatiners
+#list containers
 docker container ls
+
+
+
+
 
 
 
