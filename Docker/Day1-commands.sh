@@ -14,8 +14,11 @@ docker pull nginx
 docker images
 docker image ls
 
-#delete the un-used images
-docker 
+#delete images
+docker rmi <image_name>
+
+#delete un-used images/volumes/networks
+docker system prune -a
 
 #container creation
 docker run -d --name app1 nginx
