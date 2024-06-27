@@ -64,6 +64,23 @@ kubectl delete pod testpod1
 #forcefully pod deletion
 kubectl delete pod testpod1 --force --grace-period 0
 
+#port-forwarding (testing purpose only not for prod use cases)
+kubectl port-forward testpod1 80:80  (is used only for testing purpose not for production scenarios)
+kubectl port-forward testpod1 --address 0.0.0.0 80:80    (localhost)
+kubectl port-forward testpod1 --address 0.0.0.0 80:80 &  (background run)
+kubectl port-forward testpod1 --address 0.0.0.0 8080:80  (anyone can access from internet)
+
+#logs
+kubectl logs testpod1
+kubectl logs testpod1 -f  (latest logs)
+
+#linux command to split screen
+tmux --> ctrl b + shift "  (you will see 2 windows in 1 screen)
+#how to move the cursor in this case 
+ctrl b + up arrow / ctrl b + down arrow
+
+watch -n 1 kubectl get pods
+
 
 
 

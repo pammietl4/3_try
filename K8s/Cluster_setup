@@ -18,9 +18,7 @@ source .bashrc
 #validation for the above details are added or not
 root@ip-10-20-0-112:~# env
 
-#Cluster creation
-
-#1 master (control-plane-count) -2 worker nodes (node-count) cluster
+#Cluster creation with 1 master (control-plane-count) -2 worker nodes (node-count) cluster
 
 kops create cluster --name=lmlfinance.xyz \
   --state=s3://lmlfinance.xyz \
