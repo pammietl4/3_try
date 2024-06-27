@@ -14,5 +14,11 @@ docker pull nginx
 docker images
 docker image ls
 
+#container creation
+docker run -d --name app1 nginx
+
+#list conatiners
+docker container ls
+
 
 
