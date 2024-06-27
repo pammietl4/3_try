@@ -1,0 +1,59 @@
+
+#create domain --> go to godady & purchase your domain
+# Domain purchased cost only 123 rupees 
+lmlfinance.xyz
+
+# open this file & paste the below details
+vim .bashrc  
+
+export CLUSTER_NAME=lmlfinance.xyz
+export AWS_REGION=ap-southeast-2
+export NAME=lmlfinance.xyz
+export KOPS_STATE_STORE=s3://lmlfinance.xyz
+export KUBE_EDITOR=vim
+
+#once .bashrc file is modified, use the below command for sync
+source .bashrc
+
+#validation for the above details are added or not
+root@ip-10-20-0-112:~# env
+
+#Cluster creation
+
+#1 master (control-plane-count) -2 worker nodes (node-count) cluster
+
+kops create cluster --name=lmlfinance.xyz \
+  --state=s3://lmlfinance.xyz \
+  --zones=ap-southeast-2a,ap-southeast-2b \
+  --node-count=2 \
+  --control-plane-count=1 \
+  --control-plane-size=t3.medium \
+  --control-plane-zones=ap-southeast-2a \
+  --control-plane-volume-size 10 \
+  --node-volume-size 10 \
+  --node-size=t3.medium \
+  --ssh-public-key ~/.ssh/id_rsa.pub \
+  --dns-zone=lmlfinance.xyz \
+  --networking calico  --yes
+# --networking calico --yes (if you are not use --yes cluster will not deploy)
+
+
+# cluster creation via file! copy above code into file(lmlfinance.yaml)
+kops create -f lmlfinance.yaml
+
+#cluster information
+kubectl cluster-info
+
+#update cluster
+kops update cluster --name lmlfinance.xyz --yes –admin
+
+#node information
+kubectl get nodes
+kubectl get nodes -o wide
+
+# cluster deletion
+kops delete cluster --name lmlfinance.xyz --yes
+  
+
+
+  
