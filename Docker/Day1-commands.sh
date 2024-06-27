@@ -26,17 +26,31 @@ docker container ls
 #list running containers
 docker ps -aq
 
-#stop running conatiner
+#stop single/all running conatiner
 docker stop < container_id >
+docker stop $(docker ps -aq)
 
-#restart running conatiner
+#start single/all running conatiner
+docker start < container_id >
+docker start $(docker ps -aq)
+
+#restart singe/all running conatiner
 docker restart < container_id >
+docker restart $(docker ps -aq)
 
 #list running containers
 docker ps -aq
 
 #list stopped & running containers
 docker ps -a
+
+#delete single/all running conatiner
+docker rm -f < container_id >
+docker rm -f $(docker ps -aq)
+
+#delete single/all stopped container
+docker rm < container_id >
+docker rm $(docker ps -aq)
 
 
 
