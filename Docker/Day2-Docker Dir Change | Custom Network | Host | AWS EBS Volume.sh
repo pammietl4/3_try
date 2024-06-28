@@ -6,6 +6,7 @@ df -h
 #if you keep on downloading images/creating containers the root volume reaches to 100%
 
 #Steps To Create EBS Volume and Attaching it to the instance
+*****************************************************************
 
 1. #Create volume (xvdf) & attach to our server instance in GUI
 2. #Validate the volume in linux
@@ -25,8 +26,9 @@ df -h
      mount -a
 9. #validate the newly created volume is available/not
      df -h
-# Once EBS Volume created,fdisk and mount it -- we need to follow the below commands
 
+# Once EBS Volume created,fdisk and mount it -- we need to follow the below commands
+*************************************************************************************
 sudo systemctl stop docker.service
   
 sudo systemctl stop docker.socket
