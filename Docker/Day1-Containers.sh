@@ -1,3 +1,5 @@
+# containers are stateless ---> imagine if a running containers is failed & cameback (ip address will be changed)
+
 #Install tools
 apt update && apt install jq net-tools
 
