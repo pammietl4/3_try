@@ -66,6 +66,21 @@ docker run --rm -d --name frontend -p 8000:80 nginx:latest
 docket run --rm -d --name backend -p 8001:80 kiran2361993/rollingupdate:v10
 docket run --rm -d --name database -p 8002:80 nginx
 
+#Port no details
+docker port < container_id >
+
+#detailed information of container
+docker inspect < container_id >
+
+#enter into a container bash
+docker exec -t < container_id > bash
+
+#come out of container without exit
+ctrl+p , ctrl+q
+
+#again you want to enter into exited container
+docker attach < container_id >
+
 #containers path
 cd /var/lib/docker/containers/
 
