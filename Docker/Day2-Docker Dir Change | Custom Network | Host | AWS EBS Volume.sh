@@ -7,3 +7,4 @@ df -h
 
 #Process to change the docker directory
 
+UUID=0126c94e-e703-40bf-89de-692e2606d48a  /dockerdata ext4
