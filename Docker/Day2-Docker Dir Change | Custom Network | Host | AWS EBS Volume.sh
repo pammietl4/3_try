@@ -47,6 +47,41 @@ sudo systemctl status docker --no-pager
   
 ps aux | grep -i docker | grep -v grep
 
+*********************Network***********************
+
+#Docker Network
+docker network ls
+
+#Network types
+1. Bridge Network
+2. Host Network
+3. Custom Network
+4. Null Network
+
+#create custom brige network
+
+
+#check the running conatainers
+docker ps  # it will display the running containers
+
+#check the ip address & newtork type of containers
+docker inspect app1 | grep -ie 'network\|ipaddress'
+
+#Enter into container
+docker exec -it <Container_id_app1> bash
+
+#check if we are able to ping to app2 ip from app1 container
+ping <ip_address_app2_ip>  # -- success
+ping app2 # -- failed 
+
+
+
+
+
+
+
+
+
 
 
 
