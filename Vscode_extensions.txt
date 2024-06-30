@@ -1,0 +1,11 @@
+Vscode Extensions
+=================
+
+Better comments
+code spell checker
+color highlight
+Docker
+docker container
+git lens
+indent rainbow
+Material icon theme
