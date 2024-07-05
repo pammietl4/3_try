@@ -85,6 +85,8 @@ docker run --rm -d --name app1 -v /var/run/docker.sock:/var/run/docker.sock --ne
 #docker ps  (you will get the details of host in container)
 #docker images (you will get the details of host in container)
 
+#None network doesn't contain ip address
+docker inspect app1 | grep -ie 'IPAddress'
 
 
 
