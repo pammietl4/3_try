@@ -1,4 +1,5 @@
 # containers are stateless ---> imagine if a running containers is failed & cameback (ip address will be changed)
+#Imagine if some reason Database container failed, we will loose all the data access to avaoild this Volumes came into picture
 
 #Install tools
 apt update && apt install jq net-tools
