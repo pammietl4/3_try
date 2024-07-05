@@ -9,10 +9,10 @@ docker volume create mongodb-vol
 #Create container & attach volume to it
 docker run --rm -d --name mongodb -v mongodb-vol:/data/db -p 27017:27017 mongo:latest
 
-#command to enter into Database container
+#command to enter inside Database container
 docker exec -t <Image_name/container_id> mongosh
 
-#command to enter into nginx container
+#command to enter inside nginx container
 docker exec -it <Image_name/container_id> bash
 
 #Once entered into the mongodb container, check the tables
@@ -58,6 +58,25 @@ cd /dockerdata/volumes/mongodb-vol/_data
 
 #Create snapshot of this volume
 Go to GUI -->Volume -->create snapshot
+
+#list the networks
+docker network ls
+
+#Create container with none network
+docker run --rm -d --name app1 --network none kiran2361993/troubleshootingtools:v1
+
+#command to Enter inside the container
+docker exec -it app1 bash
+
+#once you are in inside the container & try to execute thr below commands (it will fail)
+root@05cb86949637:/# docker ps
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+root@05cb86949637:/# docker images
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+
+
+
+
 
 
 
