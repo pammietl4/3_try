@@ -4,6 +4,7 @@ df -h
 docker run --rm --name frontend -p 8000:80 nginx
 df -h
 #if you keep on downloading images/creating containers the root volume reaches to 100%
+#Imagine if some reason Database container failed, we will loose all the data access to avoild this problem Volumes came into picture (we can take the snapshot of this volumes)
 
 #Steps To Create EBS Volume and Attaching it to the instance
 *****************************************************************
