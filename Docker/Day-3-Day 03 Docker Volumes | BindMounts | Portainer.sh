@@ -74,9 +74,16 @@ Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docke
 root@05cb86949637:/# docker images
 Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
 
+#container does not know what the containers are running on the Host
 
+How to fix the attached error (how to get the details of the host from container) by using docker socket
 
+#Assigning docker socket to container
+docker run --rm -d --name app1 -v /var/run/docker.sock:/var/run/docker.sock --network none kiran2361993/troubleshootingtools:v1
 
+#docker exec -it app1 bash
+#docker ps  (you will get the details of host in container)
+#docker images (you will get the details of host in container)
 
 
 
