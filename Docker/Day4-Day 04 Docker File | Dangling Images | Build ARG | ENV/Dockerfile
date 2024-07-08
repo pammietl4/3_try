@@ -77,3 +77,10 @@ docker rmi -f $(docker images -aq)
 #check the dangling images (means unused images of docker)
 docker images -f dangling=true
 
+#delete the dangling images
+docker rmi -f $(docker images -f dangling=true -q)
+
+#remove unused images
+docker system prune -a
+
+
