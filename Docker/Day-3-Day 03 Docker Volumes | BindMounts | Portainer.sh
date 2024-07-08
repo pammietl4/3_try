@@ -88,6 +88,13 @@ docker run --rm -d --name app1 -v /var/run/docker.sock:/var/run/docker.sock --ne
 #None network doesn't contain ip address
 docker inspect app1 | grep -ie 'IPAddress'
 
+#portainer (GUI for containers)
+
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer \
+        --restart=always \
+        -v /var/run/docker.sock:/var/run/docker.sock \
+        -v portainer_data:/data \
+        portainer/portainer-ce:2.11.1
 
 
 
