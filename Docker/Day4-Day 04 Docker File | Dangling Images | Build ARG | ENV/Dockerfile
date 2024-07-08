@@ -55,9 +55,25 @@ exit
 docker stop app1
 
 #how to overright the existing ARG values in the docker file & check the progress of build
-docker build -t pammietl4/custom:v1 --progress=plain --build-arg T_VERSION='1.6.6' --build-arg P_VERSION='1.8.0' -f dockerfile.dev . --no-cache
+docker build -t pammietl4/custom:v2 --progress=plain --build-arg T_VERSION='1.6.6' --build-arg P_VERSION='1.8.0' -f dockerfile.dev . --no-cache
 
+#history
+docker history pammietl4/custom:v2
 
+#check the env of the container
+docker container exec -it app1 env
 
+#overright the ENV values in the docker file
+docker run --rm -d --name app3 -p 8003:8000 -e AWS_ACCESS_KEY=hidden -e AWS_SECRET_KEY=hidden -e AWS_DEFAULT_REGION=hippden pammietl4/custom:v2
 
+#delete the images
+docker rmi -f $(docker images -aq)
+
+#why dangling images created by docker
+#imagine i've a docker file by using this i've created an image with pammubuntu:v1
+#now i've updated the dockerfile & created the image with same name pammubuntu:v1
+#in this case 1st image will be dangling image & 2nd image will be latest image
+
+#check the dangling images (means unused images of docker)
+docker images -f dangling=true
 
