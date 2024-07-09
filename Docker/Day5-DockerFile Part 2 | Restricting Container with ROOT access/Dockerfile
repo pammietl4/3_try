@@ -1,1 +1,0 @@
-Day 05 DockerFile Part 2 | Restricting Container with ROOT access
