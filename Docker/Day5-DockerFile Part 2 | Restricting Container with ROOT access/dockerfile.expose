@@ -1,0 +1,16 @@
+#EXPOSE -- It functions as a type of documentation between the person who builds the image and the person who runs the container
+# -p 8000(Host):8000(Container)
+
+FROM ubuntu:latest
+LABEL name="pammi"
+ENV AWS_ACCESS_KEY=AKIAIOSFODNN7EXAMPLE \
+    AWS_SECRET_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY \
+    AWS_DEFAULT_REGION=ap-southeast-1
+ARG T_VERSION='1.6.6' \
+    P_VERSION='1.8.0'
+RUN apt update && apt install -y jq net-tools unzip curl wget \
+    && apt install -y nginx iputils-ping
+
+EXPOSE 80
+
+CMD [ "nginx","-g","daemon off;" ]
