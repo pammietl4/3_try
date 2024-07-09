@@ -1,5 +1,9 @@
-#EXPOSE -- It functions as a type of documentation between the person who builds the image and the person who runs the container
+#EXPOSE -- It functions as a type of **documentation* between the person who builds the image and the person who runs the container
 # -p 8000(Host):8000(Container)
+
+#Layman Language expose is just an identification of the port number
+ 
+docker run -d --name nginx -p 80:80 nginx
 
 FROM ubuntu:latest
 LABEL name="pammi"
