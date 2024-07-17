@@ -4,7 +4,7 @@ ARG T_VERSION='1.6.6'\
     P_VERSION='1.8.0'
 ENV AWS_ACCESS_KEY_ID=sfdklsjdflksjdflksdjflksdjlksjdf\
     AWS_SECRET_KEY_ID=sfdklsjdflksjdflksdjflksdjlksjdf\
-    AWS_DEFAULT_REGION=US-EAST-1A
+    AWS_DEFAULT_REGION=ap-southeast-1
 RUN apt update && apt install -y jq net-tools curl wget unzip\
     && apt install -y nginx iputils-ping
 EXPOSE 80
