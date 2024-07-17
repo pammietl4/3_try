@@ -27,7 +27,7 @@ CMD ["java", "-jar", "target/ *.jar"]
 # Stage 1: Build stage
 FROM maven:3.8.5-openjdk-17-slim AS build
 WORKDIR /app
-COPY
+COPY . .
 RUN ./mvnw package -DskipTests
 
 # Stage 2: Runtime stage
