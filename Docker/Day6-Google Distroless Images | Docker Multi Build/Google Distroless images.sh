@@ -9,7 +9,7 @@ we can not go & login into the container ( docker exec -it app1 bash)
 
 # you can not install any packages / softwares on top this images
 
-
+https://github.com/GoogleContainerTools/distroless
 
 
 
