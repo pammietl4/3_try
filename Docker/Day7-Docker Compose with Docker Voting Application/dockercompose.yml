@@ -15,3 +15,9 @@ services:
       context: .
       dockerfile: docker.prod
     container_name: prod_container
+
+
+
+# how to download docker-compse
+
+# https://github.com/docker/compose/releases/tag/v2.29.0 -- select linux at bottom
