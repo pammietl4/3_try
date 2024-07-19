@@ -21,3 +21,4 @@ services:
 # how to download docker-compse
 
 # https://github.com/docker/compose/releases/tag/v2.29.0 -- select linux at bottom
+https://github.com/docker/compose/releases/download/v2.29.0/docker-compose-linux-x86_64
