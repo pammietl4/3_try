@@ -1,3 +1,6 @@
+
+# creating 3 containers in docker compose, so that in a single command we can create/destroy the conatiners
+
 version: '3.8'
 services:
   dev:
