@@ -1,2 +1,22 @@
-Create dockerswarm servers 6
+Create dockerswarm servers 6 &
+also install curl jq docker
+#!bin/bash
+apt update
+apt install -y curl jq
+curl https://get.docker.com | bash
+
+#go to 1st manger & check the docker version and swarm status
+
+#docker version
+docker --version
+
+#swarm status
+docker info | grep -i Swarm
+
+#check the netwoks
+docker network ls
+
+#install docker swarm
+docker swarm init
+(it will generate token for you to join the swarm as worker/manager)
 
