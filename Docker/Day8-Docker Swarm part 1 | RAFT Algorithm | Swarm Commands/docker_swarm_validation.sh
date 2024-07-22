@@ -14,3 +14,6 @@ docker service ps app1
 # increase/ decrease of the replicas
 docker service scale app1=3
 docker service scale app1=6
+
+#change node status
+docker node update ip-172-31-24-209 --availability pause/active/drain
