@@ -20,3 +20,11 @@ docker node update ip-172-31-24-209 --availability pause/active/drain
 
 #remove service
 docker service rm app1
+
+#how to restric the containers deployment into specific worker/manager nodes
+docker service create --name app1 --replicas 6 --publish 8000:80 --constraint node.role==worker nginx
+
+#how to install a container in all nodes
+docker service create --name monitor --publish 9100:9100 --mode global prom/node-exporter
+
+
