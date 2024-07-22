@@ -17,3 +17,6 @@ docker service scale app1=6
 
 #change node status
 docker node update ip-172-31-24-209 --availability pause/active/drain
+
+#remove service
+docker service rm app1
