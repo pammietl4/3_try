@@ -1,0 +1,26 @@
+A content delivery network (CDN) in AWS is a globally distributed network of servers that caches and delivers content to users with low latency. The key benefits of using a CDN like Amazon CloudFront in AWS are:
+
+Improved Performance: 
+By caching content at the edge locations closest to the user, CloudFront can serve content with lower latency, providing a faster and more responsive user experience.
+
+Scalability: 
+CloudFront can handle sudden spikes in traffic and scale automatically to meet demand, ensuring your content is always available.
+
+Security: 
+CloudFront integrates with other AWS services like AWS WAF to provide security features like DDoS protection, SSL/TLS encryption, and access control.
+
+Cost Optimization: 
+By reducing the load on your origin servers and leveraging AWS's global infrastructure, CloudFront can help you optimize your content delivery costs.
+
+Easy Integration: 
+CloudFront seamlessly integrates with other AWS services like Amazon S3, Amazon EC2, and AWS Lambda, making it easy to set up and manage your content delivery
+
+
+############# Layman Language ##################
+
+A large portion of all internet content is delivering through CNCN is nothing but content deliver network
+
+Examples:
+if you are in India and want to watch the same brand in USA store, we will experienced bit slow 
+response to avoid such issues. CDN will store cache version of the US website content in multiple 
+geographical locations across the world also called as point of presence.
