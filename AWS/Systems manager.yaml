@@ -1,0 +1,16 @@
+AWS Systems Manager is a comprehensive operations management service provided by AWS that helps you view, manage, and automate various aspects of your AWS and on-premises infrastructure. Here are the key things to know about AWS Systems Manager:
+
+Visibility and Control: 
+Systems Manager provides a unified user interface so you can view and control your infrastructure across multiple AWS services and on-premises environments. It enables you to manage your Amazon EC2 instances, on-premises servers, and virtual machines from a single place.
+
+Configuration Management: 
+Systems Manager helps you maintain consistent configurations across your infrastructure. You can define configuration policies and automatically apply them to your instances. This ensures your servers are configured as per your defined standards.
+
+Automation: 
+Systems Manager allows you to automate various operational tasks such as application deployments, software updates, patch management, and more. This helps reduce manual effort and improve operational efficiency.
+
+Monitoring and Insights: 
+Systems Manager provides operational insights through features like AWS Systems Manager Explorer, which gives you an aggregated view of operations data across your AWS accounts and Regions.
+
+Security and Compliance: 
+Systems Manager integrates with other AWS security services to help you manage your infrastructure securely at scale. It provides features like session management, parameter store, and change management to ensure your operations are secure and compliant.
