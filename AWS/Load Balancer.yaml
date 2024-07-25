@@ -1,0 +1,17 @@
+Here are the different types of load balancers available on AWS:
+
+Application Load Balancer (ALB): 
+An ALB operates at the application layer (Layer 7) and can route traffic based on advanced routing rules, such as URL path, host header, or HTTP headers. 
+It is well-suited for modern, microservices-based applications.
+
+Network Load Balancer (NLB): 
+An NLB operates at the transport layer (Layer 4) and is designed to handle millions of requests per second while maintaining ultra-low latencies. 
+It is well-suited for load balancing TCP/UDP traffic.
+
+Gateway Load Balancer (GLB): 
+A GLB is used to deploy, scale, and manage a fleet of third-party virtual appliances, such as firewalls, intrusion detection and prevention systems, and other middleware.
+
+Classic Load Balancer (CLB): 
+A CLB is the original Elastic Load Balancing service provided by AWS. 
+It operates at both the application layer (Layer 7) and transport layer (Layer 4). 
+CLB is suitable for basic load balancing needs.
