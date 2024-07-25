@@ -1,0 +1,16 @@
+The key differences between AWS CloudTrail and AWS Config are:
+
+Purpose:
+AWS CloudTrail is a service that records user activity and API calls made within your AWS account. It provides an audit trail of actions taken by users, roles, or AWS services.
+AWS Config is a service that records the configuration of your AWS resources and tracks changes over time. It provides a detailed view of the configuration and relationships between your resources.
+
+Scope:
+CloudTrail records API calls and user activity, regardless of whether the action resulted in a configuration change.
+Config records the configuration state and changes to your AWS resources, such as EC2 instances, security groups, and S3 buckets.
+
+Use Cases:
+CloudTrail is primarily used for security, compliance, and operational auditing purposes. It helps you answer the question "Who did what?"
+Config is used for configuration management, compliance, and change management. It helps you answer the question "What did my resources look like at a point in time?"
+
+Integration:
+CloudTrail and Config can be used together to provide a comprehensive view of your AWS environment. For example, you can use CloudTrail to identify who made a change, and then use Config to see the details of that configuration change.
