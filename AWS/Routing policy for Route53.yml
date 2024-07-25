@@ -1,0 +1,34 @@
+Here are the different types of routing policies available in Amazon Route 53:
+Simple Routing Policy:
+Use this policy when you have a single resource (e.g., a web server) that performs a specific function for your domain.
+You can use simple routing to create records in a private hosted zone.
+Failover Routing Policy:
+Use this policy when you want to configure active-passive failover for your resources.
+You can use failover routing to create records in a private hosted zone.
+Geolocation Routing Policy:
+Use this policy when you want to route traffic based on the geographic location of your users.
+You can use geolocation routing to create records in a private hosted zone.
+Geoproximity Routing Policy:
+Use this policy when you want to route traffic based on the location of your resources and, optionally, shift traffic from one location to another.
+You can use geoproximity routing to create records in a private hosted zone.
+IP-Based Routing:
+This allows you to fine-tune your DNS routing by using your understanding of your network, applications, and clients to make the best routing decisions for your end users.
+IP-based routing gives you granular control to optimize performance or reduce network costs by uploading user-IP-to-endpoint mappings to Route 53.
+Latency-Based Routing:
+This policy routes traffic to the AWS Region that provides the lowest latency for the user.
+Latency-based routing is based on data that Route 53 collects and keeps up to date.
+
+
+################### Layman Language ###############
+
+latency -latency means it will take the nearest data centre. To avoid the latency.
+
+Failover -if one server goes down, the secondary server will take over
+
+Weighted -example, there are a lot of uses in India due to large scale users. All the heads are going to US 
+using latency to avoid such things we need to load balancing that is waited.
+
+Geo location -Jio location will strictly follow the band rules, Indian New Zealand should go to India only 
+and US region. User should go to US only.
+
+Multivalues -we can give multiple server IP in multi values, specifically, it takes any one of the IP. 
