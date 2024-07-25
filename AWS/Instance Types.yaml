@@ -1,0 +1,26 @@
+The different types of EC2 instance types on AWS can be categorized as follows:
+
+General Purpose Instances:
+Provide a balance of compute, memory, and networking resources
+Suitable for applications that require these resources in equal proportions, such as web servers and code repositories
+Examples: T, M, and A instance families
+
+Compute Optimized Instances:
+Designed for compute-intensive applications that benefit from high-performance processors
+Ideal for batch processing, media transcoding, high-performance web servers, high-performance computing (HPC), scientific modeling, and machine learning inference
+Examples: C and Hpc instance families
+
+Memory Optimized Instances:
+Designed to deliver fast performance for workloads that process large data sets in memory
+Suitable for in-memory databases, distributed web scale cache stores, and in-memory analytics
+Examples: R, X, and U instance families
+
+Storage Optimized Instances:
+Includes persistent storage to write and retrieve information from databases at high speed
+Suitable for data warehousing, Hadoop/Spark clusters, and high-performance databases
+Examples: I, D, and H instance families
+
+Accelerated Computing Instances:
+Provide hardware accelerators, such as GPUs or FPGAs, to offload specific types of workloads
+Ideal for graphics-intensive applications, video processing, and machine learning
+Examples: P, G, and Inf instance families
