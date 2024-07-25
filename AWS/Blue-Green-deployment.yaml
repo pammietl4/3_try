@@ -1,0 +1,9 @@
+Blue/Green deployment is a deployment strategy where you have two identical environments, one running the current version of your application (the "blue" environment) and one running the new version (the "green" environment). The key steps in a blue/green deployment are:
+Provision the new "green" environment with the updated application version and ensure it is fully tested and ready to receive production traffic.
+Redirect production traffic from the "blue" environment to the "green" environment. This is known as the "switchover".
+If any issues are encountered with the new version in the "green" environment, you can quickly revert the traffic back to the "blue" environment, which is still running the previous version.
+Some key benefits of the blue/green deployment approach include:
+Reduced downtime: By having two identical environments, you can switch over production traffic with minimal or no downtime.
+Rollback capability: If issues are found in the new version, you can quickly roll back to the previous version by switching traffic back to the "blue" environment.
+Parallel testing: You can thoroughly test the new version in the "green" environment before switching over production traffic.
+AWS provides several services that support blue/green deployments, such as Elastic Beanstalk, CodeDeploy, and ECS. The specific steps to implement a blue/green deployment will vary depending on the AWS services and tools you choose to use.
