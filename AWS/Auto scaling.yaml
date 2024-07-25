@@ -1,0 +1,16 @@
+Vertical and horizontal scaling are two different approaches to scaling your infrastructure in AWS:
+
+Vertical Scaling:
+Vertical scaling involves increasing the resources (such as CPU, memory, or storage) of an existing EC2 instance or other AWS resource.
+This is typically done by stopping the instance, changing the instance type to one with more resources, and then restarting the instance.
+Vertical scaling is useful when your application needs more compute power or memory, but it is limited by the maximum resources available for a single instance.
+
+Horizontal Scaling:
+Horizontal scaling involves adding more EC2 instances or other AWS resources to your infrastructure to handle increased load or demand.
+This is typically done using Auto Scaling groups, which can automatically add or remove instances based on predefined scaling policies.
+Horizontal scaling is useful when your application can be easily distributed across multiple instances, and you need to scale out to handle more traffic or workload.
+
+AWS supports both vertical and horizontal scaling for various services, including:
+EC2 Auto Scaling: Allows you to scale EC2 instances horizontally by adding or removing instances based on demand.
+DynamoDB Auto Scaling: Allows you to scale the provisioned read and write capacity of DynamoDB tables and global secondary indexes vertically or horizontally.
+Aurora Auto Scaling: Allows you to scale the number of Aurora Read Replicas provisioned for an Aurora DB cluster horizontally.
