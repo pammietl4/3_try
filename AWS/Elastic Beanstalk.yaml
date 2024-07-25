@@ -1,0 +1,22 @@
+AWS Elastic Beanstalk is a fully managed service that makes it easy to deploy and scale web applications and services developed with popular programming languages such as Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker. Here are the key things to know about AWS Elastic Beanstalk:
+
+Rapid Deployment: 
+Elastic Beanstalk allows you to quickly deploy your application without having to worry about the underlying infrastructure. You simply upload your application code, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring.
+
+Reduced Management Complexity: 
+Elastic Beanstalk abstracts away the complexity of managing the infrastructure that runs your application. It automatically provisions and manages the necessary resources, such as EC2 instances, Auto Scaling groups, load balancers, and databases.
+
+Flexibility and Control: 
+While Elastic Beanstalk manages the infrastructure on your behalf, you still retain full control over the AWS resources powering your application. You can customize the configuration, access the underlying resources, and integrate Elastic Beanstalk with other AWS services as needed.
+
+Supported Platforms: 
+Elastic Beanstalk supports a wide range of platforms, including Apache, Nginx, Passenger, and IIS, making it suitable for deploying various types of web applications and services.
+
+Deployment Options: 
+Elastic Beanstalk provides several deployment options, such as blue/green deployments, rolling updates, and immutable updates, to help you manage application updates and rollbacks.
+
+Developer Productivity: 
+Elastic Beanstalk integrates with popular development tools like AWS Toolkit for Visual Studio, Visual Studio Code, Eclipse, and IntelliJ, enhancing developer productivity.
+
+Compliance and Security: 
+Elastic Beanstalk meets the criteria for various compliance standards, such as ISO, PCI, SOC, and HIPAA, making it suitable for running regulated applications.
