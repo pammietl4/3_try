@@ -18,5 +18,7 @@
  ## <u>Iac</u>
   * Terraform
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=pammi&theme=dark)](https://git.io/streak-stats)
+
 @Pammi :+1: It's already late, please Work Hard
 
