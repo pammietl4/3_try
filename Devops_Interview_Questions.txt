@@ -1,0 +1,742 @@
+TCS cloud interview
+-------------------
+how you do deployment in kubernetes
+how can be do auto scaling in kubernetes
+if we want to reduce container how you which file you have to modify
+how you write the ci-cd pipeline in your project
+do you have any cloud certifications or redhat certifications
+how do you deploy in you project
+
+Virtusa 2nd Round Interview by Citi client
+---------------------------------------
+how you do autoscaling in kubernetes
+can you explain the ci-cd declarative pipeline you worked on.
+how you use maven and apache tomcat
+in apache tomcat where to mention the port 
+what is pom.xml
+do you know about maven structure
+for find some file in linux environment with specific size which command will you use
+for ignore error what you from linux find command
+how you replace the linux keywords with you name in oneline in linux
+how you write the parameters in jenkins
+how you are generation builds which build tools you used
+in redhat how you uninstall a package or delete a library
+what is git squash
+
+
+Clovertex DevOps Interview
+--------------------------
+which services you used
+what is NACL rules
+what is security group
+diff between NACL and security group in AWS
+what is VPC 
+what is subnet and its types, where we use private subnet
+what is NAT gateway, what is diff between NAT and internet gateway
+if i want to give access s3 object from ec2 instance what we have to do
+what is IAM roles
+what is IAM policies
+what you used from kubernetes
+what is deamonset
+what is pod 
+what is namespaces
+how you wrote jenkinsfiles
+tell me structure of declarative jenkinsfile vs scripted jenkinsfile and diff b/w them
+if i want to send email after job completed or failed, how can i do that
+
+Virtusa interview for DevOps
+----------------------------
+what is diff b/w git rebase and git merge
+what is diff b/w git pull and git fetch
+what is git branching strategy
+explain how you used git in your company with commands step by step
+do you have experience in dockerfile writing, explain each component of dockerfile and commands you used.
+if we do any changes in docker container how can it be keep in our docker new image.
+which services you used in AWS
+how you write kubernetes yaml files 
+how we can save the important username and password in kubernetes, in which file you have to keep them.
+what is config map in kubernetes.
+how many ci-cd tools you used till now, is each ci having different cd or 1 cd.
+how many environments you are supporting in ci-cd
+
+
+Paytm DevOps Interview
+---------------------
+what is load average in linux
+what is cidr range and can you calculate 10.68.24.12/22 how many ip's can be assigned
+top command what you see in first line
+what parameters be have to consider while writing dockerfile
+what is difference b/w CMD and ENTRYPOINT
+write code for string palindrome in any language
+how you make sure that jenkins master is highly available
+
+
+Loyalty Methods Devops Interview
+----------------
+which services you used in AWS
+What is AWS ECS and EKS 
+how to implement cloudformation templates 
+what is cloudformation template stack policies
+can you explain about AWS Lambda, how you configure
+what is dockerfile 
+how you can write dockerfile and docker compose explain the process
+explain volumes in dockerfile
+which logging tools have you used
+which python modules have you used till now
+using boto3 how you write python code explain
+
+Impact analytics DevOps Interview
+--------------------------------------
+what is diff b/w NAT gateway and Internet gateway
+what is diff b/w application loadbalancer and network loadbalancer
+what is the diff b/w CMD and ENTRYPOINT in docker
+how can be modify ENTRYPOINT in docker
+how will you manage the old data and where will you keep it in Cloud
+how you connect different cloud environment vpc's
+how to define outbound rules for particular port to connect
+assume role in iam 
+what is diff b/w node port and load balancer in kubernetes
+what is readyness probe and liveliness probe in kubernetes
+if any container is stopped how you make sure it is will re-create in kubernetes
+what we have to consider while writing Dockerfile
+how can be connect to docker container and modify it, then later on keep that change in new docker image
+what is include module in ansible
+what is ansible block
+which modules you used in ansible till now, how can you connect aws from ansible
+what is async function in python
+how you used logging, which tools you used
+how you setup 1000 nodes looging in prometheuos
+
+
+EY Interview for Ansible-python
+-----------------------------------
+what is __init__ in python
+what we have to write in python script in intial lines
+how can you increase the hosts limit in ansible more then 100
+what is ansible tower
+can you write playbook for install 3 packages using loops
+can you write code for python list filters, give list to split or filter
+can you write fibonacci series in python
+can you tell me what you mostly wrote in ansible playbooks
+can you write how you use jinja templates in ansible
+what is fork in ansible
+how you pull a roles in ansible from command line
+what is difference between default and vars directory in roles
+can you write how to define a variable in playbook
+for environment variable setup which ansible module will you use 
+
+Sutherland Global 2nd Round
+-----------------------------
+which linux commands you used ?
+what is cut command use?
+what is awk command use?
+have you used git, can you explain git commands which you used ?
+what is git reset, if i went back to 5 commits what will happen.
+how i can pull another branch in different branch repository
+have you used any iac, what is terraform, what is the modules of terraform?
+have you used AWS, which services you used in AWS?
+how you create some instance in aws tell me the steps?
+how you use jenkins in your project?
+have you used any shared libraires in jenkins ?
+how to create pipelines for build, test, deploy tell me the steps ?
+how you do a junit testing in maven in this pipeline ?
+tell me the commands for docker image create, container start & kill.
+how ansible works? control node and manage nodes?
+where we can define hosts/servers in ansible?
+what exactly you used ansible for ?
+other then dockerhub where we can keep our docker images?
+
+
+Sutherland Global L1 round
+---------------------------
+get special character from string
+get common element from 2 lists
+what you did for artifactory migration is it a upgrade?
+what upgrade and migration ?
+what you did in kubernetes
+what is namespace in kubernetes
+
+
+Accenture cloud migration role 
+---------------------------------
+Which services you used in AWS
+how to connect private subnet to public subnet
+how an web application works and send data back from webapplication and database in AWS which services going to use.
+can we limit access of services for particular users in AWS, which service we have to use.
+can we downsize the RDS database and how we can do that
+how we can connect from one vpc to another vpc do we need to accept something
+what is mapping and parameters in cloudformation templates
+how you are using cloudformation templates
+what is AWS loadbalancer
+what is NAT
+difference between NACL rules and security group
+how you going to create snapshot or vm image and use it in AWS
+after using aws image do we need to mount if previously it is mounted or do we need to up the services
+have you used any AWS CI/CD service
+
+Realpage Interview
+-------------------
+AWS services you worked on.
+AWS EC2 instance is not connecting from AWS s3
+what is kubernetes deployment and stateful sets
+how you did eks setup
+how you keep secrets keys or string in kubernetes
+have you worked on Terraform
+how we can remove duplicate items in python
+which type of scripts you wrote till now
+which monitoring service you used till now in kubernetes.
+if i want to send notification to users how can i do that using kubernetes
+
+
+Incedo Interview Python/DevOps
+----------------------------------
+how to compare two file which are present in 2 vm's which modules will you use
+for opensuse how you compile code using python
+what is setup.py in python
+what is wheel in python
+how can you make your python code accessable to whole vm 
+what is the pros/cons of subprocess in python
+how ansible know that some of the packages already installed and other are not installed, mapping ?
+what is the structure of directories if we are developing any tools in python
+what is docker image
+how docker build images, what its internal working from dockerfile
+what factors we have to consider while creating docker image
+what is the difference in alpine or ubuntu base image in docker when to use which image
+if i am inside aws ec2 instance how can i check the metadata of that instance or where i can find it
+what is IAM in AWS
+how you use AWS IAM
+what is the difference in user role and service role in AWS
+
+
+BNY Mellon Ansible/python interview
+---------------------------------------
+Can you tell me the features of python
+what is self in python
+Ansible hosts, is ansible stops after it fail on particular host or continues
+If i want to test some ansible playbook, how i can do that like what is going to change
+if i want to call ansible for other user, how can i do that
+what is workflow and what is project workflow
+python code for getting data from config.ini and check for specific data which module will you use
+how do you handle multiple python versions
+how extensively you used python and which codes do you wrote during work
+which data structures you used in python, give some examples
+do you know about virtual environment
+have you worked on rest api 
+can you tell me which typical situation you faced during your work 
+what is threading in python, and tell me what is the use case for it, or is it beneficial to use (pros/cons).
+
+
+Global Logic for perl/xslt/python Interview
+-----------------------------------
+what is cron job, have you write it yourself the code for it
+how to make any shell script executable
+which command will you use to create a file in linux
+what are builtin data types in python
+what is difference between sets and tuple
+what is lambda function in python
+can you write code for find the common element from 2 lists
+which library i have to use for xml in python
+how to open file in perl 
+how to define variable in perl
+how to import file in perl
+can you explain what is xslt
+can you explain xpath and xquery in xslt
+how we can keep secret keys in python or shell scripting so other person can't see
+
+
+Hiresnap/Indigo DevOps interview
+------------------------------------
+$#, $@, $* use in shell script
+process and memory status using which command
+what is crontab how to use it
+what is difference between softlink and hardlink
+what is version control system
+what is merge in git
+what is configuration management
+why are we using kubernetes
+what is difference between docker swarm and kubernetes
+what is continueous delivery and continueous deployment
+what monitoring tools you used 
+what is iac?, which tool you used for iac
+what is difference between canary and rolling update deployment
+what is blue-green deployment
+what services you used in AWS
+what is string and group in aws cloudwatch
+what is difference between cloudtrail and cloudwatch
+What is the difference between SNS and SQS service
+what is use of vpc and security group
+
+
+Accenture Interview 
+------------------------
+which services you used from AWS
+Types of instances in AWS
+How to migrate the organization storage to AWS, he mentioned some hardware also
+How to migrate an web application from an organization to AWS we have plan for long term usgage so how you select AWS instance.
+If we have 2 public subnets with web and database server how you make sure database not accesible from internet.
+What is the difference between NACL rules and Security group.
+
+
+Incedo Ansible/python profile 1st Round
+-----------------------------------------
+python 2 lists which way you are going to sort them, and which algorithm you will use
+you know about time complexity, and whats the time complexity for search item in list
+what is git
+can you tell me which git commands you used in your work
+can you explain branching strategy for large organization
+can we implement ci-cd in git
+what is docker, dockerfile, can we implement ci-cd in docker
+docker swarm commands 
+How ansible works 
+ansible advantages
+how ansible playbook works or how to write
+how to test any ansible project
+how terraform works
+what is terraform state file
+what is terraform init
+
+
+Global Logic perl/shell scripting 
+--------------------------------
+write code to find last 10 bytes of a file date
+write a code which create 10 files, if we execute again then again create 10 files
+write above questions codes in perl and shell script both, if you are able to write then python also.
+can you tell me if we don't know python library functions, then how can we get help without going to google.
+
+Tata Technology (CI and python interview)
+----------------------------------------
+write code in python to get the median of a=[1,2], b=[3]
+write code in python for n2 +(n-1)2 +(n-2)2 +-------- 1
+which jenkins parameters you know
+how to use or get code in git when you don't have access 
+jenkins scripted and declarative pipeline difference
+can you explain jenkins pipelines 
+can you explain docker file stages
+docker entrypoint keyword 
+
+Keysight interview questions
+--------------------------------
+explain about your projects you worked 
+how much time the transcoding took
+python related interview questions like decorator, which library used, wrote oops based code.
+do you know how to use type annotation in python
+
+Iris Software
+--------------
+What is Ansible tower.
+How to limit number of hosts for execution of tasks in Ansible.
+Have you ever worked in Ansible Tower.
+can you write playbook for create a file in node and check the file is created or not.
+
+what is DSL job in jenkins
+define types of parameters in jenkins
+what is diff between string and persistent string parameter in jenkins.
+
+Capgemini
+------------
+explain your previous experience, how you utilize your time after graduation.
+how you started working for devops tools in your previous company.
+how python code going to execute, class, function, constructor
+python list and tuple difference
+what is dictionary in python
+what is decorators and generators in python
+what is ansible 
+how ansible works
+how you use ansible playbook command for execute particular playbook
+how ansible inventory works
+where hosts file found in ansible
+
+SpanIdea - for Broadcom
+-------------------------
+write code for upload daily backup in aws and create backup also, and check file size and other checks
+how to connect aws from code, what steps we have to take for that, where we have to keep the access and secret keys.
+can we access ec2 instance without attaching vpn
+if cpu utilization is more how you will do the debug 
+which tool you will use to copy data from ubuntu to windows
+explain git branch
+diff between git pull and git fetch
+how to identify the static and dynamic process in linux.
+have you ever used any other svn systems
+if multiple users are having access to aws ec2 instance and 1 user will change file permission then how to track which user did the change. 
+jenkins home directory after it install.
+
+
+Lyods technology - karat took the interview
+------------------------------------------
+scenario based interview questions
+choose which cloud platform you are comfortable - I choose AWS
+need to configure 100 servers which are having db servers and web servers as well as which AWS service will you use.
+which storage services are their in AWS
+which services for create server in aws
+difference between spot and on-demand instance
+database migration services 
+
+how many deployment strategies do you know 
+pros and cons of that deployment strategy
+what services will you use for security and compliance
+if environment is fragile then how are the deployment issues you might face. 
+A vpc having 1 private subnet is their with 10.0.0.1/24 and NAT gateway is also their, what is the issue in this case what would you add in this environment.
+for the small organization if they use Kubernetes and docker swarm what are the pros and cons in this case?
+
+i was not able to answer Splunk and Dynatrace and ServiceNow 5 questions in 1 section.
+
+bash scenario-based question 
+like filter logs which command can you use and save them in a particular file 
+download data from the web and automate the process 
+the question was already having some code written I have to debug the error or what was wrong with that, and the same scenario I had to repeat for multiple databases.
+
+
+Altimetrik round 1 interview
+----------------------------
+what is shell, and types of shell you used?
+How to unzip a .gz file
+chmod command, ssh, scp 
+what is curl command
+can you write python code which display message at particular interval continueously.
+can you write code in python to copy data in another server.
+what is ci-cd and explain about jenkins, explain jenkinsfile?
+which version control systems you used?
+Have you ever used ansible, ever wrote ansible playbook, explain.
+which cloud you worked on, which AWS services you used?
+have you ever worked for migration from on-premises to cloud?
+What is scope in python
+
+Luxoft technology Interview 
+----------------------------
+write a code in Python for check file is present or not
+aws cloudformation, vpc peering, how to connect different network or hybrid system.
+what parameters we have to consider during migration from on-premises to cloud.
+explain the ci-cd workflow or flow you implemented in your system.
+types of load-balancers ?
+what is the target group in AWS ?
+Have you used AWS Lambda service ?
+how do you deploy applications from ci-cd ?
+how does a request go from a network or servers or services in the cloud and how the response goes?
+how internet gateway works with multiple networks.
+how do you do database migration in AWS?
+which RDS services have you used?
+blue-green deployment, and what other types of deployment.
+Kubernetes scheduler ?
+
+zensar technologies
+-------------------
+ansible tower ?,  ansible-galaxy ?, ansible objects ?
+explain ansible playbook
+
+types of inheritance in python
+How Python manages memory management
+Write Fibonacci series code 
+what are decorators in python
+what is generators in Python
+how to delete a file in python
+
+CGI interview:
+--------------------
+terraform version which you used
+terraform modules you used 
+where you can keep secret keys in terraform
+tell me about terraform state file
+terraform secrets
+write a jenkins file for build, test, package, and archive 
+
+Deutsche telekom interview questions
+--------------------------------------
+explain me about your day-to-day tasks not projects.
+what is docker, dockerfile and components in dockerfile.
+difference between cmd and entrypoint
+difference between copy and add
+tell me any example of dockerfile with its component
+what is docker build command
+if i delete docker container will it re-run itself ?
+
+what is jenkins
+who configured master and slave architecture in your company
+which language you used to jenkinsfile. 
+do you know groovy language.
+declarative vs scripted pipeline.
+
+filter IP address from 3 lines of text data in any coding language like shell or python or java.
+which AWS services you used.
+
+Cognizant interview questions
+------------------------------
+explain what is process, from which command we can check.
+#! in linux
+what is zombie process.
+stages of a process.
+explain shebang line.
+how to resolve git conflict during merge.
+AWS instance type, S3 objects, which aws services you know, what is route 53, what is autoscaling, VPC, and load balancer.
+
+Persistent interview questions
+-----------------------------------
+how you can filter logs with some error code and some Description in python.
+what is jenkins, can you explain about jenkinsfile.
+how to write a jenkinsfile and explain components like you used to write. for download files at jenkins server then copy it to another server then how you execute code for IVST. 
+what is docker, can you explain how to write dockerfile and explain how layers work and which base image you use.
+explain command use in dockerfile.
+what is configmap in kubernetes.
+
+Amazon devOps support engineer Round 1st Interview:
+--------------------------------
+tell me about yourself and project details 
+write a script to add 2 digit number till it become a single digit
+tell me the linux commands which you are using in your project
+get Name from below data which are having hyd
+Name|city|name|address
+A | hyd | abcc | some
+A | Hyd | dsfs | asda
+B| asds | dsf | dsf
+C| hYD | dasfs| dsf
+
+how to replace 100's of file name extension from .jpg to .jpeg
+
+Amazon DevOps support engineer round 2nd Interview:
+--------------------------------
+tell me about your project, and what is your day to day tasks
+Describe a time when you sacrificed short term goals for long term success
+describe more about your tasks what exact work have you done till now, or recently
+filter 3 log files and create something like dashboard from their processed data
+------------------------
+input:
+cpuandmemory.log
+hostname|timestamp|cpu|mem|disk
+networklatency.log
+hostname|networkspeed|ping
+filesize.log
+hostname|filename|filesize
+---------------------------------
+output something like this:
+hostname|average CPU(hr) | average mem(hr)| average networkspeed(hr)| average ping(hr) | largest file
+
+
+Teradata 2nd interview questions:
+----------------------------------------
+vi editor short cuts
+linux commands used in daily work
+sed, awk, grep command
+Jira ticket logging and how team is working 
+
+Teradata 1st Interview questions:
+-----------------------------------------------
+Linux:
+how many types of shell you know 
+difference between sed and awk command and their uses, asked to write command with conditions using sed
+flavours of linux and unix
+installation commands like rpm, dpkg
+do you know how to create a repo
+how to install a package
+
+Python:
+tell me about List, tuple and dictionary with example
+asked to write code for fetch data from List and dictionary using multiple files in python and get substring from tuple
+fetch the last character from a string
+
+DevOps:
+which services you know form AWS
+did you ever worked on azure and gcp
+do you know about jenkins
+where you maintain your code like version control management system
+ 
+Teradata 2nd Interview
+----------------------------------------------
+commands used inside vim editor like copy, paste and search
+awk commands uses 
+packaging commands based on distribution
+daily work involved with python coding and project work related questions
+
+--------------------------------------------------
+Cloud Elements 1st Round Technical questions (after clearing coding task 3 question (2 shell scripting + 1 python))
+--------------------------------------------------
+What are the tasks you did last week and what are the tasks you have to do next week
+
+AWS
+Tell me services which you used from AWS
+How to create an EC2 instance tell steps 
+How to configure S3 
+Types of S3 object, cheapest option to save any object
+Is their any object that is restricted in S3
+explain in Cloudwatch I want to send email if server is down using AWS SNS
+
+Jenkins
+How to create a pipeline
+How to create build and deploy
+How to deploy in particular slave instance
+
+Linux
+from name get the value from multiple lines like 
+name:marks
+anshul:70
+dinesh:30
+... 100 lines
+
+Docker
+Create image for java application and then deploy on particular port tell step by step
+
+Python 
+Explained tasks i did in my work related to python
+------------------------------------------------------------
+Cloud Elements 2nd Round questions
+------------------------------------------------------------
+write a code to upload folders in aws bucket, for subfolders also
+folder monitor to upload new files
+how you can debug if server is not responding
+how you debug if database server is not responding
+how you can save system variables 
+------------------------------------------------------------------------------------------------
+Amdocs 1st technical round Interview questions for DevOps profile (after written cleared)
+------------------------------------------------------------------------------------------------
+Python: can you write python function, class, write function for add, print hello world, take user arguments and do addition
+Git: Git create branch, merge branch, commit, push
+Kubernetes: probes in kubernetes, what is helm, kubernetes architecture
+what is microservices
+Jenkins: what is jenkins, how to add ec2 vm in jenkins
+Do you know any monitoring tool
+Linux:
+command to check the previous command status
+how to add path variable using linux command
+AWS: what AWS services do you know 
+---------------------------------------------
+Oracle Interview questions for DevOps Profile
+---------------------------------------------
+Explain about your project and how much experience do you have in technologies or devops tools, and your day-to-day work  
+Architecture of kubernetes
+what is helm in kubernetes and how to write YAML file in it
+difference between ADD and COPY in docker
+difference between CMD and ENTRYPOINT in docker
+how to create and run container using dockerfile
+what is docker-compose and how to execute Docker-compose.yaml
+what is difference between Dockerfile and Docker-compose.yaml file
+write code for fibonacci series in python
+write code for swapping in python
+----------------------------------------------------------
+Sailpoint interview questions for DevOps Profile
+----------------------------------------------------------
+slash 24 in subnet
+docker and mysql connection - what docker provides for this
+tell me about terraform state file
+jenkins freestyle and pipeline job
+explain ci-cd workflow
+-----------------------------------------------------------
+Guavus Interview Questions:
+--------------------------------------------------
+How to debug if i am unable to create file in Linux
+How to debug memory issue in linux
+What is ELK stack, how you can explain to your manager
+------------------------------------------------------  
+Behavioural Questions for Interviews
+--------------------------------------------------
+Bias for action
+1. Tell me about a time you had to quickly adjust your work priorities to meet changing demands
+Teamwork/Interpersonal skills
+2. What did you do when you needed to motivate a group of individuals?
+3. Give me an example of a time you faced a conflict while working on a team. How did you handle that?
+4. The last time you had to apologize to someone
+5. Describe a long-term project that you managed. How did you keep everything moving along in a timely manner ?
+6. Describe a situation when you negotiated with others in your organization to reach an agreement
+Earn Trust
+7. Tell me about a time when you received negative feedback from your manager.How did you respond?
+Problem solving /Dive Deep
+8. Tell me about a time when you missed an obvious solution to a problem
+9. A time when you faced a problem that had multiple possible solution
+Strategy / Decision making
+10. Tell me about a time when you were 75% through a project & you had to pivot strategy 
+11. tell me about a time you had to deal with ambiguity
+12. tell me about the toughest decision you've had to make in the past six months
+Learn and be curious
+13. What's the most innovative new idea that you have implemented ?
+Ownership
+14. Tell me about a time stepped up into a leadership role
+15. Describe a time when you sacrificed short term goals for long term success
+16. Tell me about a time when had to push back to HQ or challenged a decision
+Customer obsession
+17. we all deal with difficult customers from time to time. tell me about a challenging client-facing situation and how you handled it
+Failure
+18. Tell me about a time when you were not able to meet a time commitment .
+What prevented you from meeting it? what was the outcome and what did you learn from it?
+19. tell me about a time you failed and what you learned from it.
+
+S - situation
+T - Task
+A - Action 
+R - Result
+-------------------------------------------------------------------------------------------------------------------------------------------
+Deployment Questions:
+what is a blue-green deployment ?
+How do you do a hot deployment ?
+what is your rollback strategy ?
+Have you used jenkins for deployment ?
+what jenkins plugin have you used ?
+have you ever used user data for deployment ?
+
+
+Configuration management questions:
+Which configuration management tool have you used ?
+What is difference between CHEF and Ansible?
+Have you written any Cookbook/Modules/Playbook ?
+
+Production support related question:
+What is the biggest issue you have faced in a production environment ?
+What is your DR strategy in Live website ?
+How do you scale a production web service ?
+
+--------------------------------------------------------------------------------------------------------------------------------
+This information will also be used to generate list of devops skills that will make their way 
+
+1.       General skills
+a.       Programming
+                                   i.            Interpreted languages like Ruby, Python
+                                   ii.           Compiled languages like Go, Java, Groovy
+                                   iii.          Scripting and DSLs like bash, Jenkins DSL
+                                   iv.           Build managers like MVN, Gradle, Bundle, PyInstaller
+b.       Networking
+                                   i.            Routing, DNS, VPN setup, load balancers, dhcp
+                                   ii.           Firewall/security such as setting up packe or stateful filters, SNAT, DNAT, NAT, proxies, SSL/TLS
+                                   iii.          Debugging, tcpdump, traceroute, ngrep, iperf, nmap, snort, port mirroring
+                                   iv.           More advance topics like:
+1.       multicast, unicast, dhcp proxies, vlans,trunking,  bonds, bridges, LACP, LAGG, tunnels, GRE, sockets, spanning, store-and-forward
+c.       System Administration
+                                   i.            Different operating systems (kernel, shell, init, sysctls, package managers sys calls and signals, run-levels)
+                                   ii.           Security (roles, permissions, etc.)
+                                   iii.          SSH Server and Agent, forward, reverse, dynamic proxies, etc
+d.       Security
+                                   i.            SSO/Oauth
+                                   ii.           Ldap, Active Directory, rfc2307bis related schema standards
+                                   iii.          Key and secrets management (e.g., Vault, Chef Databags)
+                                   iv.           SSL transactions, Chain of Trust, GPG, Ciphers (AES, Blowfish, etc)
+2.       CI/CD and build tools
+a.       GitOps and IaaC patterns/tools
+b.       Jenkins:
+                                   i.            how to standup and configure
+                                   ii.           how to make jobs and pipelines, multistage builds
+                                   iii.          best practices (ie, testing, artifact management, reporting, ...)
+                                   iv.           Jenkinsfiles, Jenkins API, Jenkins X
+                                   v.            Jenkins DSL
+                                   vi.           Customized groovy applications that run in Jenkins JVM allowed by Script Security
+1.       FreeStyleProject and Hudson classes and methods
+c.       One of Chef/Ansible/ Salt/Puppet/etc.
+                                   i.             configuration, provisioning, etc
+                                   ii.            For categories that are primarily yaml can you write custom resources in python or ruby to avoid hacky config DSL?
+                                   iii.           Integrations with other tools, like Terraform
+3.       Docker
+a.       basic concepts and dockerfile syntax/components - hosts the container is called docker, components- daemon, client, registries, objects, namespaces and control groups.
+b.       best practices (secrets management, size of containers, speed of image builds, security) - Use a .dockerignore file.
+                                                                                                    Containers should be immutable & ephemeral. 
+                                                                                                    Minimize the number of layers / Consolidate instructions. 
+                                                                                                    Avoid installing unnecessary packages. 
+                                                                                                    Sort multi-line arguments. 
+                                                                                                    Build cache. 
+                                                                                                    Build every time. 
+c.       Draft, Skaffold, other tools … list please
+
+4.       Kubernetes/Orchestration
+a.       setup a cluster or hybrid environment, or used managed services from cloud providers - Having working experience to setup hybrid environment and used Amazon EKS 
+b.       basic concepts and k8s components - The Kubernetes master runs the Scheduler, Controller Manager, API Server and etcd components and is responsible for managing the Kubernetes cluster. 
+c.       Patterns: custom resources, stateful vs stateless systems, networking, security, secrets, ... - replication controller, rescheduling pods, scaling pods
+d.       Helm and other related tools in the space (lots of project that cover many services needed for containers) - 
+e.       Tools tied to scaling, monitoring, reliability, logging, etc... - Kubelet, cAdvisor, Kube-state-metrics, kubernetes Dashboard, Prometheus, Jaeger, Kubewatch, Weave Scope, The EFK Stack 
+
+5.       Public and or Private Cloud
+a.       different cloud technologies (VM/container management, managed databases/queues/alerting/etc., networking concepts, security/IAM, etc.) ... please list provider and resource
+b.       config as code: Terraform or equivalent (Cloudformation, etc) - Having work experience in terraform and cloudformation templates. 
+c.       multi-cloud/hybrid setups (setup VPN, DNS, VPC pairing …) - Having work experience in setup VPN, DNS, VPC pairing setup.
