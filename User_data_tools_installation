@@ -6,6 +6,7 @@ sudo apt install json -y
 sudo apt install unzip -y
 sudo apt install git -y
 sudo apt install python3 -y
+sudo apt install net-tools -y
    
 # code to Install Trivy in ubuntu
 sudo apt-get install wget apt-transport-https gnupg
