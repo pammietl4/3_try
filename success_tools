@@ -99,3 +99,7 @@ sudo apt install python3 -y
 #Install git on ubuntu
 sudo apt update -y
 sudo apt install git -y
+
+#install network tools on ubuntu
+sudo apt update -y
+sudo apt install net-tools -y
