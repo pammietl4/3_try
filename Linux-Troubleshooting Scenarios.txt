@@ -1,0 +1,35 @@
+Linux-Troubleshooting Scenarios 
+
+Here are some key points for troubleshooting common issues in Linux systems:
+
+1. Server Connectivity Issues:
+ - Ping the server by Hostname and IP Address: Ensure the server is reachable.
+ - Check service availability with telnet command: Confirm that the required service ports are open and accessible.
+ - Verify service status, firewall settings, logs, and configuration: Ensure the service is running, firewall rules are correct, and logs do not show errors.
+
+2. Disk Space Full Issue:
+ - Detect system performance degradation: Look for slowdowns that might indicate disk space issues.
+ - Identify the problematic filesystem using `df` command: Use `df -h` to check disk space usage.
+ - Use `du` command to find large files/directories, compress/remove them: Run `du -sh * | sort -h` to locate large directories and files.
+ - Check disk health with `badblocks`, analyze IO-bound processes: Use `badblocks` to check for bad sectors and monitor I/O activity.
+
+3. Filesystem Corruption:
+ - Check log files for errors causing boot-up failure: Review logs in `/var/log` for error messages.
+ - Run `fsck`, reboot into rescue mode to fix bad sectors: Use `fsck` to check and repair filesystems, boot into rescue mode if necessary.
+
+4. Fstab File Issues:
+ - Troubleshoot missing or incorrect entries in `fstab`: Ensure that the `fstab` file is correctly configured by checking for typos or missing entries.
+
+5. Memory Issues:
+ - Monitor memory usage with cache and RAM, identify high memory processes: Use `free -m` to check memory usage and `top` or `htop` to find high memory-consuming processes.
+ - Address memory shortages by restarting processes, adding more RAM, or extending swap space: Restart problematic processes, consider adding physical RAM, or increase swap space.
+
+6. Swap Space Management:
+ - Add more swap space by creating a swap file, setting permissions, and updating `fstab` for persistence:
+ - Create a swap file: `sudo fallocate -l 1G /swapfile`
+ - Set correct permissions: `sudo chmod 600 /swapfile`
+ - Make the file a swap space: `sudo mkswap /swapfile`
+ - Enable the swap file: `sudo swapon /swapfile`
+ - Update `/etc/fstab` for persistence: `echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab`
+
+These key points provide a structured approach to efficiently tackle common Linux system issues.
