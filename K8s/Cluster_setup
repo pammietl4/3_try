@@ -56,7 +56,7 @@ kops delete cluster --name lmlfinance.xyz --yes
 rm -rf .kube/config
 
 #Cluster GUI (Lens)
-Cat .kube/config
+cat .kube/config
 
 #copy the output of above command & paste it in Lens (you will see cluster information in GUI)
   
