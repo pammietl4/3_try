@@ -5,6 +5,7 @@ kubectl run <name_of_the_pod> --image=nginx
 kubectl create -f testpod1.yml
 
 #Steps to create testpod1.yml file
+kubectl run testpod1 -n alpha --image kiran2361993/kubegame:v1 --dry-run -o yaml    #deploying pod in a specific name space
 kubectl run testpod1 --image nginx --dry-run -o yaml (below code will be displayed copy it & save it into new file)
 
 apiVersion: v1
