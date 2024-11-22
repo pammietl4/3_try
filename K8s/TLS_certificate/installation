@@ -1,0 +1,6 @@
+Installing certbot
+
+sudo snap install --classic certbot
+
+certbot certonly --manual --preferred-challenges=dns --key-type rsa --email pammidevops34@gmail.com \
+--server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d *.lmlfinance.xyz
