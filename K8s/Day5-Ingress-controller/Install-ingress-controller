@@ -1,0 +1,19 @@
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.1/deploy/static/provider/aws/deploy.yaml
+
+kubectl delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.1/deploy/static/provider/aws/deploy.yaml
+
+# Navigate to /tmp directory
+cd /tmp
+
+# Create SSL key files
+echo "<Your-Private-Key>" > tls.key
+echo "<Your-Certificate>" > tls.crt
+
+# Create secret for SSL keys
+kubectl create secret tls nginx-tls-default --key="tls.key" --cert="tls.crt"
+
+# Verify the secret
+kubectl describe secret nginx-tls-default
+
+# List all secrets
+kubectl get secrets
