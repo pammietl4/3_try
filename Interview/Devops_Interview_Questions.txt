@@ -740,3 +740,34 @@ e.       Tools tied to scaling, monitoring, reliability, logging, etc... - Kubel
 a.       different cloud technologies (VM/container management, managed databases/queues/alerting/etc., networking concepts, security/IAM, etc.) ... please list provider and resource
 b.       config as code: Terraform or equivalent (Cloudformation, etc) - Having work experience in terraform and cloudformation templates. 
 c.       multi-cloud/hybrid setups (setup VPN, DNS, VPC pairing …) - Having work experience in setup VPN, DNS, VPC pairing setup.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+"What's the biggest challenge you've faced as a DevOps engineer? How did you overcome it?"
+
+This is the common interview question we usually get and here are the tailor made responses for you, do share with your friends and community if you have found useful.
+
+𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞 𝟏: 𝐈𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞 𝐚𝐬 𝐂𝐨𝐝𝐞 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞𝐬
+
+Challenge: One of the biggest challenges I've faced was transitioning from manual infrastructure provisioning to Infrastructure as Code (IaC). It was difficult to balance the need for flexibility and agility with the rigidity of code-based configurations.
+
+Overcoming: To overcome this, I focused on creating modular and reusable IaC templates. By breaking down complex infrastructure into smaller, manageable components, we could easily modify and redeploy them. Additionally, we implemented strict version control and testing procedures to ensure consistency and reliability.
+
+𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞 𝟐: 𝐂𝐈/𝐂𝐃 𝐏𝐢𝐩𝐞𝐥𝐢𝐧𝐞 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧
+
+Challenge: Optimising our CI/CD pipeline to reduce build and deployment times was a significant challenge. Long pipeline execution times hindered our ability to release frequently and respond to customer needs promptly.
+
+Overcoming: To address this, we implemented parallel execution for independent build stages, optimized our test suite to focus on critical areas, and leveraged caching mechanisms to reduce redundant operations. By carefully analyzing pipeline bottlenecks and applying targeted optimizations, we significantly improved our delivery speed.
+
+𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞 𝟑: 𝐂𝐥𝐨𝐮𝐝 𝐌𝐢𝐠𝐫𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐂𝐨𝐬𝐭 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧
+
+Challenge: Migrating our legacy infrastructure to the cloud while maintaining cost-efficiency was a complex undertaking. Balancing performance, scalability, and cost considerations required careful planning and execution.
+
+Overcoming: We adopted a phased migration approach, starting with non-critical workloads to minimize risks. By leveraging cloud-native services and optimizing resource utilization, we were able to reduce costs significantly. Additionally, we implemented automated cost monitoring and optimization tools to proactively identify and address cost-inefficient practices.
+
+𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞 𝟒: 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐚𝐧𝐝 𝐂𝐨𝐦𝐩𝐥𝐢𝐚𝐧𝐜𝐞
+
+Challenge: Ensuring the security and compliance of our infrastructure and applications was a constant challenge. Staying up-to-date with the latest security threats and regulatory requirements was demanding.
+
+Overcoming: We established a robust security framework that included regular security audits, vulnerability assessments, and penetration testing. By automating security checks and integrating them into our CI/CD pipeline, we were able to identify and address security issues.
