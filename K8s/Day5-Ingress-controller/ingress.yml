@@ -1,0 +1,51 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: result-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    spec.ingressClassName: nginx
+#  changed - as it is depracted "kubernetes.io/ingress.class"
+spec:
+  tls:
+  - hosts:
+    - "result.lmlfinance.xyz"
+    secretName: nginx-tls-default
+  rules:
+  - host: result.lmlfinance.xyz
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: result
+            port:
+              number: 80
+
+---
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: vote-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    spec.ingressClassName: nginx
+spec:
+  tls:
+  - hosts:
+    - "vote.lmlfinace.xyz"
+    # - "www.lmlfinace.xyz"
+    secretName: nginx-tls-default
+  rules:
+  - host: vote.lmlfinance.xyz
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: vote
+            port:
+              number: 80
