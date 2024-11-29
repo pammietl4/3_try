@@ -14,3 +14,8 @@ if everything is good then only Main container will deploy
 Adapter container -- Adapter containers are mainly used in service mesh
 it helps in server proxy, logging , Tracing , Metrics
 
+Ambassador Containers -- Mainly used in Micro services
+1-- SSL Terminations
+2-- Routes to Path based Routing with in the K8s cluster
+it has the capability of routing the traffic to the different micro service deployed in that k8s cluster.
+
