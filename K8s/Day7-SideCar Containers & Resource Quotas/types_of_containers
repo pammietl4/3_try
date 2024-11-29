@@ -3,7 +3,7 @@
 3. Ambassdor Container
 
 INIT Container -- imagine in a node, we have 3 containers in that 
-1 container is Main container & other 
+1 container is Main container(application deployed) & other 
 2 containers are sidecar containers (works as servant to main container)
 Example -- 
 if you want to deploy DB server in Main container(1) then 
