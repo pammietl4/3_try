@@ -2,4 +2,12 @@
 2. Adaptor Container
 3. Ambassdor Container
 
-INIT Container -- imagine in a node, we have 3 containers in that 1 container is Main conatiner & other 2 containers are side car containers (works as servent to main container)
+INIT Container -- imagine in a node, we have 3 containers in that 
+1 container is Main container & other 
+2 containers are sidecar containers (works as servant to main container)
+Example -- 
+if you want to deploy DB server in Main container(1) then 
+sidecar conatiner1 will check the DB Endpoints are working fine or not
+sidecar conatainer2 will check whether the Services is working fine or not
+if everything is good then only Main container will deploy
+
