@@ -11,3 +11,6 @@ sidecar conatiner1 will check the DB Endpoints are working fine or not
 sidecar conatainer2 will check whether the Services is working fine or not
 if everything is good then only Main container will deploy
 
+Adapter container -- Adapter containers are mainly used in service mesh
+it helps in server proxy, logging , Tracing , Metrics
+
