@@ -1,0 +1,5 @@
+1. INIT Container
+2. Adaptor Container
+3. Ambassdor Container
+
+INIT Container -- imagine in a node, we have 3 containers in that 1 container is Main conatiner & other 2 containers are side car containers (works as servent to main container)
