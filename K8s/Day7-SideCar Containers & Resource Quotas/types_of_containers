@@ -18,3 +18,21 @@ Ambassador Containers -- Mainly used in Micro services
 1-- SSL Terminations
 2-- Routes to Path based Routing with in the K8s cluster
 it has the capability of routing the traffic to the different micro service deployed in that k8s cluster.
+
+
+Resource Qota & Limits
+-----------------------
+Resource Qota -- will be applied on Namespace level
+Resource Limits -- will be applied on Container Level
+Example --
+if you have node with 20 CPU & 20 GB Memory
+then you will create 4 namespaces (AP-Team), (GL-Team),(AR-Team),(HR-Team)
+here we are sharing 20 CPU & 20 GB Memory to above Teams 
+now you are assigning the resource quota to AP-Team Namepace -- 5GB CPU & 5GB Memory
+now you are assigning the resource quota to GL-Team Namepace -- 8GB CPU & 7GB Memory
+now you are assigning the resource quota to AP-Team Namepace -- 4GB CPU & 5GB Memory
+now you are assigning the resource quota to AP-Team Namepace -- 3GB CPU & 3GB Memory
+Note-- for each namespace you are assigning Resource Limits to containers -- how many containers can be create & size of the container
+
+
+
