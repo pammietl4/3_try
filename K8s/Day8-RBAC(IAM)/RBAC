@@ -26,5 +26,8 @@ openssl genrsa -out prod-user.key 2048
 openssl req -new -key prod-user.key -out prod-user.csr -subj "/CN=prod-user/O=prod"
 openssl x509 -req -in prod-user.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out prod-user.crt -days 365
 
+Once the above commands implemented -- it will generate the keys for user in dev & prod namespace
 
-
+step4
+-----
+Now copy above dev-user.key , prod-user.key , dev-user.crt , prod-user.crt from management server to control plane (master) server
