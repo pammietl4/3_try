@@ -1,0 +1,6 @@
+Role Based Access Control(RBAC) = IAM(AWS)
+1. you handle user related Access
+2. you handle user related permissions
+3. you restric the user at namespace level
+4. you can restric user at cluster level
+
