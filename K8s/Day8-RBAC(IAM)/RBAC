@@ -18,13 +18,13 @@ step3 (create dev-user in dev namespace)
 -----------------------------------------
 openssl genrsa -out dev-user.key 2048
 openssl req -new -key dev-user.key -out dev-user.csr -subj "/CN=dev-user/O=dev"
-openssl x509 -req -in dev-user.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out dev-user.crt -days 365
+openssl x509 -req -in dev-user.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out dev-user.crt -days 365
 
 (create prod-user in prod namespace)
 -----------------------------------------
 openssl genrsa -out prod-user.key 2048
 openssl req -new -key prod-user.key -out prod-user.csr -subj "/CN=prod-user/O=prod"
-openssl x509 -req -in prod-user.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out prod-user.crt -days 365
+openssl x509 -req -in prod-user.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out prod-user.crt -days 365
 
 
 
