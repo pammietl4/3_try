@@ -4,3 +4,14 @@ Role Based Access Control(RBAC) = IAM(AWS)
 3. you restric the user at namespace level
 4. you can restric user at cluster level
 
+step1
+-----
+create namespace dev & prod
+
+step2
+-----
+copy ca.ctr & ca.key from controll node to management server
+place to find the ca.ctr & ca.key is -- /etc/kubernetes/kops-controller
+
+
+
