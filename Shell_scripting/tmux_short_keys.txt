@@ -1,0 +1,9 @@
+#linux command to split screen(Horizontal line sleeping line)
+tmux --> ctrl b + shift "  (you will see 2 windows in 1 screen)
+#how to move the cursor in this case 
+ctrl b + up arrow / ctrl b + down arrow
+
+#linux command to split screen(vertical line standing line)
+tmux --> ctrl b + shift 5  (you will see 2 windows in 1 screen)
+#how to move the cursor in this case 
+ctrl b + up arrow / ctrl b + down arrow
