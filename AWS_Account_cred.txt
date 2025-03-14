@@ -1,0 +1,16 @@
+
+Main-account
+------------
+Email: pammilakshma36@gmail.com
+cred: Yuva66879
+
+dev-account
+-----------
+Email: pammidevopsrecordings@gmail.com
+cred: Yuvansh@2025P
+
+test-account
+------------
+
+Email: yuvansh2023pammi@gmail.com
+cred: Yuvansh@2025P
