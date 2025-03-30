@@ -1,0 +1,178 @@
+https://chatgpt.com/share/67e9835d-1904-8003-8706-de397e8018e3
+
+How DevOps Engineers Monitor System-Related Activities?
+As a DevOps Engineer, monitoring the system is crucial for performance, security, and reliability. We use various tools and techniques to track what’s happening in our infrastructure. Let’s break it down using Flipkart’s backend as an example.
+
+1️⃣ Monitoring System Performance (CPU, Memory, Disk, Network)
+Imagine Flipkart’s servers are like delivery trucks. If they are overloaded, orders get delayed. We monitor:
+✔ CPU Usage – If a server is overloaded, it needs autoscaling.
+✔ Memory Usage – Ensures applications don’t crash due to out-of-memory (OOM) issues.
+✔ Disk Usage – Prevents storage from running out (causing order failures).
+✔ Network Traffic – Detects slowdowns or attacks.
+
+How to monitor?
+✅ Linux Commands:
+
+bash
+Copy
+Edit
+top      # View CPU & memory usage  
+df -h    # Check disk usage  
+iostat   # Monitor I/O performance  
+netstat -tulnp  # See open ports and network connections  
+✅ Monitoring Tools:
+
+Prometheus & Grafana (for real-time metrics visualization 📊)
+
+CloudWatch (AWS) (for cloud-based monitoring 🚀)
+
+Nagios, Zabbix (for on-premise servers 🏢)
+
+🔹 Interview Question: How do you monitor system performance in Linux?
+
+2️⃣ Monitoring Logs (System & Application Logs)
+Logs are like CCTV footage of Flipkart’s backend. We track:
+✔ System Logs – Check if a server rebooted unexpectedly.
+✔ Application Logs – Find errors in Flipkart’s order processing system.
+✔ Security Logs – Detect unauthorized access.
+
+How to monitor?
+✅ Linux Commands:
+
+bash
+Copy
+Edit
+journalctl -f    # View live system logs  
+tail -f /var/log/syslog  # Live application logs  
+grep "ERROR" /var/log/app.log  # Find specific errors  
+✅ Monitoring Tools:
+
+ELK Stack (Elasticsearch, Logstash, Kibana) – Log analysis & visualization
+
+CloudWatch Logs (AWS) – Centralized log management
+
+Splunk, Graylog – Advanced log monitoring
+
+🔹 Interview Question: How do you set up centralized logging for a microservices-based architecture?
+
+3️⃣ User Activity & Security Monitoring (Who Accessed What?)
+Security is a major concern in Flipkart’s infrastructure. We track:
+✔ Who logged in? (Detect unauthorized SSH access)
+✔ Who changed system files? (Find suspicious modifications)
+✔ Failed login attempts? (Prevent brute-force attacks)
+
+How to monitor?
+✅ Linux Commands:
+
+bash
+Copy
+Edit
+last -a   # Check user login history  
+who       # See who is logged in now  
+cat /var/log/auth.log | grep "Failed password"  # Check failed logins  
+✅ Monitoring Tools:
+
+AWS GuardDuty – Detects unusual login patterns
+
+OSSEC, Wazuh – Open-source intrusion detection systems
+
+SIEM (Security Information & Event Management) – Enterprise-level security monitoring
+
+🔹 Interview Question: How do you monitor SSH login activity in a Linux server?
+
+4️⃣ Service & Process Monitoring (Detect Application Failures)
+In Flipkart’s backend, services like payment processing, order confirmation, and inventory tracking must always run. If a process crashes, we must restart it automatically.
+
+How to monitor?
+✅ Linux Commands:
+
+bash
+Copy
+Edit
+systemctl status nginx   # Check if Nginx is running  
+ps aux | grep java       # Find Java-based processes  
+✅ Monitoring Tools:
+
+Monit & Supervisor – Restart failed processes automatically
+
+Prometheus & Alertmanager – Sends alerts when a service is down
+
+AWS CloudWatch Alarms – Notifies if an EC2 instance is unhealthy
+
+🔹 Interview Question: How do you automatically restart a failed process in Linux?
+
+5️⃣ Network & Traffic Monitoring (Slow Performance & Attacks)
+Imagine Flipkart’s servers like a toll plaza. If too many cars (requests) arrive, traffic jams (slowdowns) happen. We monitor:
+✔ How many users are connected?
+✔ Is the network bandwidth sufficient?
+✔ Are there DDoS attacks?
+
+How to monitor?
+✅ Linux Commands:
+
+bash
+Copy
+Edit
+netstat -tulnp   # Show open ports & connections  
+iftop            # Monitor real-time network usage  
+tcpdump -i eth0  # Capture network packets  
+✅ Monitoring Tools:
+
+AWS VPC Flow Logs – Track all network traffic
+
+Wireshark, Tcpdump – Analyze packet-level traffic
+
+Cloudflare, AWS Shield – Protect against DDoS attacks
+
+🔹 Interview Question: How do you detect and prevent DDoS attacks in AWS?
+
+6️⃣ Disk & Storage Monitoring (Prevent Out-of-Space Issues)
+If Flipkart’s database runs out of space, orders fail! We track:
+✔ How much disk space is left?
+✔ Which files are using too much storage?
+✔ Are old logs getting deleted?
+
+How to monitor?
+✅ Linux Commands:
+
+bash
+Copy
+Edit
+df -h        # Check free disk space  
+du -sh *     # Find large files  
+journalctl --vacuum-time=2d  # Delete logs older than 2 days  
+✅ Monitoring Tools:
+
+AWS CloudWatch Metrics – Monitor EBS disk usage
+
+Zabbix, Nagios – Disk monitoring for on-premise servers
+
+🔹 Interview Question: How do you prevent disk space from filling up in production servers?
+
+7️⃣ Automated Alerting & Incident Response (Get Notified!)
+A DevOps engineer doesn’t manually check logs every hour. Instead, we set up automatic alerts when something goes wrong.
+
+How to set up alerts?
+✅ Monitoring Tools:
+
+AWS CloudWatch Alarms – Sends alerts if CPU usage is too high
+
+Grafana Alerts – Triggers a Slack notification if an app crashes
+
+PagerDuty, OpsGenie – Notifies on-call engineers of incidents
+
+🔹 Interview Question: How do you set up alerts for high CPU utilization in AWS?
+
+🔥 Summary: Key Monitoring Areas & Tools
+Monitoring Task	Linux Command	DevOps Tool
+System Performance (CPU, Memory, Disk, Network)	top, df -h, iostat	Prometheus, CloudWatch, Nagios
+Logs & Error Monitoring	journalctl -f, tail -f /var/log/syslog	ELK Stack, Splunk
+User Activity & Security	last -a, who, cat /var/log/auth.log	AWS GuardDuty, OSSEC
+Service Monitoring	systemctl status nginx, `ps aux	grep java`
+Network Traffic & Security	netstat -tulnp, iftop	AWS VPC Flow Logs, Wireshark
+Disk & Storage	df -h, du -sh *	Zabbix, CloudWatch
+Automated Alerts	N/A	PagerDuty, CloudWatch Alarms
+Final Thoughts
+For a DevOps Engineer, monitoring is mission-critical to: ✔ Detect issues before they impact customers 🛠️
+✔ Ensure high availability & performance 🚀
+✔ Improve security & prevent attacks 🔐
