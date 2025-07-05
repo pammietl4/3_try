@@ -1,3 +1,11 @@
 git config --global user.name "pammi"
 git config --global user.email "pammietl4@gmail.com"
 git config --list
+
+----------- Git command flow ----------
+
+git add .
+git status
+git diff
+git commit -m "first commit"
+git push
