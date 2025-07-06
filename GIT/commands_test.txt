@@ -8,4 +8,26 @@ git add .
 git status
 git diff
 git commit -m "first commit"
+
+----------- git remote ----------
+
+git remote -v
+
+https -- you need to enter username & password everytime
+git@github.com -- genearte ssh-keygen(public/private key) --> copy publickey to github. so git repo become password less
+
+change git remote https to git@github.com
+
+git remote set-url origin ssh-url (below example)
+git remote set-url origin git@github.com:pammietl4/3_try.git
+
+*********** first time push  ***********
+git push origin main
+
+********** Second time push *********
 git push
+
+Note:- check the git status where the current branch is pointing
+
+git status --> on branch main  then git push is sufficient (second commit)
+
