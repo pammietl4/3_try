@@ -4,6 +4,8 @@ git fork -- Github
 git clone -- git
 git config -- username, email , default branch
 Repository creation -- Local(mkdir) & Remote(new repo)
+git init -- converting normal folder to git folder & it will create .git folder for tracking changes
+.git folder -- what will be there in .git folder (objects/hooks/ref/config..)
 Add files to Local repo  -- git add <file name> or . or -A
 commit the changes       -- git status, git commit -m "message"
 git push                 -- git remote add origin <ssh-url> , git push origin main
