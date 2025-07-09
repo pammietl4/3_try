@@ -1,0 +1,9 @@
+9-July-25
+---------
+git fork -- Github
+git clone -- git
+git config -- username, email , default branch
+Repository creation -- Local(mkdir) & Remote(new repo)
+Add files to Local repo  -- git add <file name> or . or -A
+commit the changes       -- git status, git commit -m "message"
+git push                 -- git remote add origin <ssh-url> , git push origin main
