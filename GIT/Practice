@@ -9,3 +9,25 @@ git init -- converting normal folder to git folder & it will create .git folder 
 Add files to Local repo  -- git add <file name> or . or -A
 commit the changes       -- git status, git commit -m "message"
 git push                 -- git remote add origin <ssh-url> , git push origin main
+
+10-July-25
+----------
+git branch -- local / remote
+git checkout -b <branch name>  -- it will create new branch & switch to it
+git checkout <branch name> -- switch
+Note -- where ever you are creating a new branch it will auto copy the old code to new branch
+git branch  -- to see local branchs
+git branch -r -- to see remote branchs
+git branch -a -- to see local & remote branchs
+git merge <branch name>  --> switch to the branch where you need to merge it
+git push origin <branch name> -- to move local branch to remote
+git branch -d <brabch name> -- to delete local branch
+git push origin --delete <branch name> -- to delete remote branch from local
+
+Branching stratagy(uber/ola)
+------------------
+main branch (car)
+Feature-bike
+feature-auto
+Realse -v1,v2,v3
+Hotfix/bug-fix branch
