@@ -104,3 +104,8 @@ Performance Monitoring Tools (e.g., Prometheus alerting file descriptor exhausti
 DevOps Engineers after log analysis
 
 Linux system recommendations in production setups (e.g., Nginx docs or tuning guides)
+
+🧠 How to explain in interview:
+“In one situation, I killed the Nginx master process but the service wouldn’t restart. 
+The worker process was stuck even after kill -9. After analyzing with ps and journalctl, I found the worker was in a stopped state (t) likely due to hitting the file descriptor limit. 
+I confirmed this with ulimit -a and raised the open file limit to 65535 using PAM and systemd overrides. This resolved the issue and Nginx restarted cleanly.”
