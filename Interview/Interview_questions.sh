@@ -1,3 +1,21 @@
+MIRAFRA - Bangalore (L1 - virtual)
+
+Questions
+
+Introduce yourself
+CI/CD Workflow
+Terraform – How do you manage an existing EC2 instance by using Terraform?
+Docker – How do you ensure security while writing the Dockerfile?
+Kubernetes – How do you restrict not creating additional pods?
+GitLab/GitHub – Restrict creating new branches when already 4 branches exist
+AWS – Auto Load Balancer troubleshooting steps
+Linux – Get exact matching word in a file
+Ansible
+By using Python - what automation scripts you have created?
+Which Kubernetes are you currently using - Self-hosted or Cloud Provider like EKS?
+
+
+
 1. Have you ever managed an application single-handedly?
 2. What are the benefits of Infrastructure as Code (IaC)?
 3. What are the different ways to create infrastructure as code?
